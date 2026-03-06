@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterarbeit – Gliederung und Exposé</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #2c3e50;
+        }
+
+        .university {
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .document-type {
+            font-size: 18px;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .title {
+            font-size: 22px;
+            color: #1a252f;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        /* Author Info */
+        .author-info {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .author-info table {
+            margin: 0 auto;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .author-info td {
+            padding: 5px 15px;
+        }
+
+        .author-info td:first-child {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .author-info td:last-child {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        /* Section Styles */
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #2c3e50;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        /* Research Questions */
+        .research-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            border-left: 4px solid #3498db;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .main-question {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .sub-questions {
+            list-style: none;
+            counter-reset: question-counter;
+        }
+
+        .sub-questions li {
+            counter-increment: question-counter;
+            margin-bottom: 12px;
+            padding-left: 35px;
+            position: relative;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .sub-questions li::before {
+            content: "FF" counter(question-counter);
+            position: absolute;
+            left: 0;
+            font-weight: 700;
+            color: #3498db;
+            font-size: 12px;
+        }
+
+        /* Table of Contents */
+        .toc {
+            margin-top: 30px;
+        }
+
+        .chapter {
+            margin-bottom: 25px;
+        }
+
+        .chapter-header {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 12px;
+        }
+
+        .chapter-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #3498db;
+            margin-right: 15px;
+            min-width: 30px;
+        }
+
+        .chapter-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .subchapter {
+            margin-left: 45px;
+            margin-bottom: 15px;
+        }
+
+        .subchapter-header {
+            font-size: 14px;
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 6px;
+        }
+
+        .subchapter-desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            padding-left: 15px;
+            border-left: 2px solid #e0e0e0;
+        }
+
+        .sub-subchapter {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .sub-subchapter-header {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 4px;
+        }
+
+        .sub-subchapter-desc {
+            font-size: 12px;
+            color: #777;
+            line-height: 1.5;
+            padding-left: 12px;
+            border-left: 2px solid #eee;
+        }
+
+        /* FF Reference Tags */
+        .ff-tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .ff-tag.main {
+            background: #e74c3c;
+        }
+
+        /* Mapping Table */
+        .mapping-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+        }
+
+        .mapping-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .mapping-table th {
+            background: #2c3e50;
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .mapping-table td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .mapping-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .mapping-table tr:hover {
+            background: #f0f7ff;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <div class="university">Hochschule Osnabrück | WiSo | Master Business Management</div>
+            <div class="document-type">Exposé zur Masterarbeit</div>
+            <div class="title">„Multi-Agent-Systeme zur Prozessautomatisierung und Entscheidungsunterstützung durch AI-Assisted Development"</div>
+            <div class="subtitle">Eine iterative Design-Science-Studie am Beispiel eines KI-gestützten Support-Systems</div>
+            
+            <div class="author-info">
+                <table>
+                    <tr>
+                        <td>Verfasser:</td>
+                        <td>Nikolai Toft Loosveld</td>
+                    </tr>
+                    <tr>
+                        <td>Erstprüfer:</td>
+                        <td>Prof. Dr. Andreas Faatz</td>
+                    </tr>
+                    <tr>
+                        <td>Zweitprüfer:</td>
+                        <td>Prof. Dr. Frank Bensberg</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Forschungsfragen -->
+        <div class="section">
+            <div class="section-title">Forschungsfragen</div>
+            
+            <div class="research-box">
+                <div class="main-question">
+                    Hauptfrage: „Inwieweit ermöglicht AI-Assisted Development Fachkräften ohne IT-Hintergrund die Entwicklung von Multi-Agent-Systemen, und welchen betriebswirtschaftlichen Nutzen bietet dies?"
+                </div>
+                
+                <ul class="sub-questions">
+                    <li>Welche Herausforderungen bestehen bei der Automatisierung von Geschäftsprozessen und für welche Arten von Prozessen eignen sich Multi-Agent-Architekturen als Lösungsansatz?</li>
+                    <li>Wie lassen sich Multi-Agent-Systeme durch AI-Assisted Development konzipieren und implementieren und welche Anforderungen, Skills und Entwicklungsprozesse sind dabei erforderlich?</li>
+                    <li>Inwieweit erfüllt das entwickelte System die definierten Anforderungen, und wie bewerten Nutzer dessen Funktionalität, Usability und praktischen Mehrwert?</li>
+                    <li>Welche betriebswirtschaftlichen Potenziale, organisatorischen Veränderungen und Erfolgsfaktoren ergeben sich durch den Einsatz von Multi-Agent-Systemen, die mittels AI-Assisted Development entwickelt wurden?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Gliederung -->
+        <div class="section toc">
+            <div class="section-title">Gliederung mit Erläuterungen</div>
+
+            <!-- Kapitel 1 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">1</span>
+                    <span class="chapter-title">Einleitung</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">1.1 Problemstellung und Motivation</div>
+                    <div class="subchapter-desc">Ich beschreibe das zentrale Problem: Unternehmen brauchen Automatisierung, aber IT-Fachkräfte fehlen – gleichzeitig entstehen neue Möglichkeiten durch AI-Assisted Development. Der Leser versteht, warum diese Arbeit relevant ist.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">1.2 Zielsetzung und Forschungsfragen</div>
+                    <div class="subchapter-desc">Ich definiere das Ziel der Arbeit und stelle Haupt- und Unterfragen vor. Die Fragen dienen als roter Faden für alle folgenden Kapitel.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">1.3 Methodisches Vorgehen und Aufbau der Arbeit</div>
+                    <div class="subchapter-desc">Ich erkläre kurz die Methodik (Design Science Research) und gebe einen Überblick über den Aufbau der Arbeit. Der Leser weiß, was ihn wo erwartet.</div>
+                </div>
+            </div>
+
+            <!-- Kapitel 2 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">2</span>
+                    <span class="chapter-title">Theoretische Grundlagen</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">2.1 Geschäftsprozessautomatisierung</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.1.1 Begriffsdefinition und Entwicklung</div>
+                        <div class="sub-subchapter-desc">Ich definiere Geschäftsprozessautomatisierung und zeige die Entwicklung von regelbasierter Automatisierung (RPA) hin zu intelligenten Systemen. Der Leser versteht den historischen Kontext und aktuelle Trends.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.1.2 Herausforderungen bei wissensintensiven Prozessen <span class="ff-tag">FF1</span></div>
+                        <div class="sub-subchapter-desc">Ich zeige, warum klassische Automatisierung bei komplexen Prozessen (unstrukturierte Daten, Ausnahmen, Kontextverständnis) an Grenzen stößt. Dies begründet, warum Multi-Agent-Systeme als Lösung relevant sind.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">2.2 Multi-Agent-Systeme</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.2.1 Definition und Architekturprinzipien</div>
+                        <div class="sub-subchapter-desc">Ich erkläre verständlich, was Agenten und Multi-Agent-Systeme sind – mit Analogien für BWL-Leser. Der Leser versteht das Kernkonzept der Arbeit.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.2.2 Orchestrierungsmuster und Agenten-Kommunikation</div>
+                        <div class="sub-subchapter-desc">Ich beschreibe verschiedene Architekturmuster (Pipeline, Routing, Supervisor) und wie Agenten kommunizieren. Dies legt die Grundlage für die Architekturentscheidung in Kapitel 4.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.2.3 Anwendungsfelder in Unternehmen <span class="ff-tag">FF1</span></div>
+                        <div class="sub-subchapter-desc">Ich zeige praktische Einsatzgebiete von MAS in Unternehmen (Support, Dokumentenverarbeitung, Entscheidungsunterstützung). Der Leser versteht die betriebswirtschaftliche Relevanz.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">2.3 AI-Assisted Development</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.3.1 Begriffsdefinition und Abgrenzung</div>
+                        <div class="sub-subchapter-desc">Ich definiere AI-Assisted Development und grenze es ab von No-Code, Low-Code und klassischer Programmierung. Der zentrale Begriff der Arbeit wird klar definiert.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.3.2 Potenziale für Fachkräfte ohne IT-Hintergrund <span class="ff-tag main">HF</span></div>
+                        <div class="sub-subchapter-desc">Ich diskutiere, welche neuen Möglichkeiten AI-Assisted Development für Nicht-Programmierer bietet und welche Skills (z.B. Prompt Engineering) relevant werden. Dies ist die theoretische Grundlage für die Hauptfrage.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">2.4 Technologische Grundlagen</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.4.1 Large Language Models und RAG</div>
+                        <div class="sub-subchapter-desc">Ich erkläre verständlich, wie LLMs funktionieren und was RAG (Retrieval Augmented Generation) ist. Der Leser versteht die technische Basis der Agenten.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.4.2 n8n als Workflow-Automation-Plattform</div>
+                        <div class="sub-subchapter-desc">Ich stelle n8n vor: Eine Open-Source-Plattform zur visuellen Workflow-Automatisierung mit über 200 Integrationen, die per Drag-and-Drop bedient wird. Der Leser versteht, womit ich die Multi-Agent-Pipeline gebaut habe.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">2.4.3 Lovable als AI-gestützte Full-Stack-Entwicklungsplattform</div>
+                        <div class="sub-subchapter-desc">Ich stelle Lovable vor: Eine AI-Plattform, die aus natürlichsprachlichen Prompts vollständige Web-Applikationen generiert (Frontend, Backend, Auth, Datenbank via Supabase). Der Leser versteht, wie ich ohne Programmierkenntnisse den Support Hub entwickelt habe.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kapitel 3 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">3</span>
+                    <span class="chapter-title">Forschungsmethodik</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">3.1 Design Science Research</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">3.1.1 Grundlagen und DSR-Zyklus</div>
+                        <div class="sub-subchapter-desc">Ich erkläre Design Science Research nach Hevner: Ziel ist die Entwicklung und Evaluation von Artefakten. Ich beschreibe den DSR-Zyklus (Problem → Design → Develop → Evaluate).</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">3.1.2 Anwendung in dieser Arbeit</div>
+                        <div class="sub-subchapter-desc">Ich zeige konkret, wie ich DSR anwende und mappe die Phasen auf meine Kapitel. Der Forschungsprozess wird transparent und nachvollziehbar.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">3.2 Anforderungsanalyse mit Volere</div>
+                    <div class="subchapter-desc">Ich erkläre das Volere Requirements Framework und wie ich es für Anforderungsdefinition und Evaluation nutze. Volere dient als Brücke zwischen Kapitel 4 (Anforderungen) und Kapitel 6 (Evaluation).</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">3.3 Evaluationsmethodik <span class="ff-tag">FF3</span></div>
+                    <div class="subchapter-desc">Ich beschreibe, wie ich den Prototyp evaluiere: Soll-Ist-Vergleich der Anforderungen und Nutzerevaluation. Die Bewertungskriterien werden vorab festgelegt.</div>
+                </div>
+            </div>
+
+            <!-- Kapitel 4 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">4</span>
+                    <span class="chapter-title">Anforderungsanalyse und Systemkonzeption</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">4.1 Problemkontext: Herausforderungen im Kundensupport <span class="ff-tag">FF1</span></div>
+                    <div class="subchapter-desc">Ich beschreibe konkret die Probleme im Support: manuelle Bearbeitung, lange Reaktionszeiten, inkonsistente Qualität, nicht skalierbar. Der Leser versteht den Business Case für den Prototyp.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">4.2 Stakeholder und deren Anforderungen</div>
+                    <div class="subchapter-desc">Ich identifiziere die Stakeholder (Kunden, Support-Team, Management) und deren Bedürfnisse. Die Anforderungen werden aus verschiedenen Perspektiven abgeleitet.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">4.3 Anforderungsdefinition nach Volere</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">4.3.1 Funktionale Anforderungen</div>
+                        <div class="sub-subchapter-desc">Ich definiere, WAS das System können muss: E-Mail-Verarbeitung, Intent-Erkennung, Dokumentensuche, Kalenderintegration, Antwortgenerierung. Jede Anforderung wird im Volere-Format dokumentiert.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">4.3.2 Nicht-funktionale Anforderungen <span class="ff-tag">FF3</span></div>
+                        <div class="sub-subchapter-desc">Ich definiere, WIE GUT das System sein muss: Performance, Usability, Sicherheit, Wartbarkeit. Diese Kriterien werden später zur Evaluation herangezogen.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">4.4 Systemkonzeption</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">4.4.1 Gesamtarchitektur und Technologie-Stack</div>
+                        <div class="sub-subchapter-desc">Ich beschreibe die Architektur (Support Hub via Lovable, Multi-Agent-Pipeline via n8n) und begründe die Tool-Auswahl. Der Leser versteht das Zusammenspiel der Komponenten.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">4.4.2 Konzeption der Multi-Agent-Architektur als Pipeline mit dynamischem Routing <span class="ff-tag">FF2</span></div>
+                        <div class="sub-subchapter-desc">Ich begründe die Architekturentscheidung: Sequentielle Pipeline mit bedingten Verzweigungen (If-Nodes). Ich definiere die fünf Agenten und ihre Aufgaben. Die konzeptionelle Grundlage für die Implementierung ist gelegt.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kapitel 5 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">5</span>
+                    <span class="chapter-title">Entwicklung des Systems</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">5.1 Überblick: Iterativer Entwicklungsprozess <span class="ff-tag">FF2</span></div>
+                    <div class="subchapter-desc">Ich beschreibe das iterative Vorgehen (Build-Evaluate-Schleifen) und gebe einen Überblick über die Entwicklungsphasen. Der Entwicklungsprozess wird transparent dokumentiert.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">5.2 Support Hub: Frontend und Backend</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.2.1 Prompt-basierte Entwicklung mit Lovable <span class="ff-tag main">HF</span></div>
+                        <div class="sub-subchapter-desc">Ich beschreibe, wie ich mit Lovable den kompletten Support Hub entwickelt habe – ausschließlich durch Prompts. Lovable generierte Frontend (React), Backend-Logik und Datenbankanbindung (Supabase). Der AI-Assisted Development Ansatz wird konkret demonstriert.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.2.2 Kernmodule und KI-Funktionen</div>
+                        <div class="sub-subchapter-desc">Ich dokumentiere die implementierten Module (Conversations, CRM, Team-Chat, Dashboard) und die KI-Funktionen im Hub (Auto-Reply, Prioritätserkennung, Spam-Erkennung). Der Leser versteht den Funktionsumfang.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">5.3 Multi-Agent-Pipeline in n8n</div>
+                    
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.3.1 Workflow-Architektur und Phasen</div>
+                        <div class="sub-subchapter-desc">Ich beschreibe die drei Workflow-Phasen: (1) E-Mail-Eingang und Weiterleitung, (2) Callback und E-Mail-Versand, (3) Multi-Agent-Orchestrierung. Der Leser versteht die Gesamtstruktur.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.3.2 Die fünf KI-Agenten <span class="ff-tag">FF2</span></div>
+                        <div class="sub-subchapter-desc">Ich dokumentiere jeden Agenten: Triage Agent, Document Analysis Agent, Intent Agent, Calendar Agent, Draft Writer Agent – jeweils mit Aufgabe, Input und Output. Das Herzstück der Arbeit wird transparent gemacht.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.3.3 Integration externer APIs</div>
+                        <div class="sub-subchapter-desc">Ich beschreibe die Anbindung von Gmail, Google Calendar, Google Drive, LlamaParse und OpenRouter. Der Leser versteht, wie die externen Dienste integriert sind.</div>
+                    </div>
+
+                    <div class="sub-subchapter">
+                        <div class="sub-subchapter-header">5.3.4 Finaler Output: Gmail Draft und Google Task</div>
+                        <div class="sub-subchapter-desc">Ich zeige das Endergebnis der Pipeline: Ein fertiger Antwort-Entwurf in Gmail und ein strukturiertes Briefing als Google Task für den Mitarbeiter. Der praktische Nutzen wird konkret.</div>
+                    </div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">5.4 Reflexion: Skills und Grenzen als Nicht-IT-Fachkraft <span class="ff-tag main">HF</span> <span class="ff-tag">FF2</span></div>
+                    <div class="subchapter-desc">Ich reflektiere ehrlich: Welche Skills musste ich lernen (Prompt Engineering, API-Verständnis, Systemdenken)? Wo hat AI-Assisted Development geholfen? Wo stieß ich an Grenzen? Dies beantwortet direkt die Hauptfrage und FF2.</div>
+                </div>
+            </div>
+
+            <!-- Kapitel 6 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">6</span>
+                    <span class="chapter-title">Evaluation</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">6.1 Vorgehen und Testszenarien</div>
+                    <div class="subchapter-desc">Ich beschreibe das Evaluationsvorgehen und die konkreten Testszenarien (z.B. FAQ-Anfrage, Terminbuchung, komplexe Anfrage mit Anhang). Die Evaluation wird nachvollziehbar dokumentiert.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">6.2 Anforderungserfüllung (Soll-Ist-Vergleich) <span class="ff-tag">FF3</span></div>
+                    <div class="subchapter-desc">Ich prüfe jede Anforderung aus Kapitel 4: Erfüllt, teilweise erfüllt, nicht erfüllt – mit Begründung und Evidenz. Dies beantwortet FF3 objektiv und strukturiert.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">6.3 Nutzerevaluation: Funktionalität, Usability, Mehrwert <span class="ff-tag">FF3</span></div>
+                    <div class="subchapter-desc">Ich präsentiere das Feedback der Nutzer zu Funktionalität, Usability und praktischem Mehrwert. Dies beantwortet den zweiten Teil von FF3.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">6.4 Bewertung von AI-Assisted Development <span class="ff-tag main">HF</span></div>
+                    <div class="subchapter-desc">Ich bewerte den Entwicklungsansatz: Stärken, Grenzen, Machbarkeit für Nicht-IT-Fachkräfte. Dies liefert die zentrale Antwort auf die Hauptfrage.</div>
+                </div>
+            </div>
+
+            <!-- Kapitel 7 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">7</span>
+                    <span class="chapter-title">Betriebswirtschaftliche Implikationen</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">7.1 Potenzialanalyse: Effizienz, Qualität und Skalierbarkeit <span class="ff-tag">FF4</span></div>
+                    <div class="subchapter-desc">Ich analysiere qualitativ den betriebswirtschaftlichen Nutzen: Welche Effizienzgewinne sind plausibel? Wie verbessert sich die Antwortqualität? Wie skaliert das System? Keine metrische Evaluation, sondern argumentative Potenzialanalyse basierend auf Funktionsumfang und Nutzerfeedback.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">7.2 Organisatorische Veränderungen und neue Rollen <span class="ff-tag">FF4</span></div>
+                    <div class="subchapter-desc">Ich diskutiere, wie AI-Assisted Development Rollen verändert: Welche neuen Kompetenzprofile entstehen? Wie verändert sich die Zusammenarbeit zwischen IT und Fachbereichen? Der Leser versteht die Implikationen für Organisation und HR.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">7.3 Erfolgsfaktoren und Handlungsempfehlungen <span class="ff-tag">FF4</span></div>
+                    <div class="subchapter-desc">Ich leite aus den Erkenntnissen konkrete Erfolgsfaktoren (technisch, organisatorisch, personell) und Handlungsempfehlungen für Unternehmen ab. Die Arbeit liefert praxisrelevanten Transfer.</div>
+                </div>
+            </div>
+
+            <!-- Kapitel 8 -->
+            <div class="chapter">
+                <div class="chapter-header">
+                    <span class="chapter-number">8</span>
+                    <span class="chapter-title">Schlussbetrachtung</span>
+                </div>
+                
+                <div class="subchapter">
+                    <div class="subchapter-header">8.1 Zusammenfassung und Beantwortung der Forschungsfragen <span class="ff-tag main">HF</span></div>
+                    <div class="subchapter-desc">Ich fasse die Kernergebnisse zusammen und beantworte explizit jede Forschungsfrage (FF1-FF4) sowie die Hauptfrage mit Verweis auf die entsprechenden Kapitel. Der Leser erhält eine klare, strukturierte Antwort.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">8.2 Kritische Würdigung und Limitationen</div>
+                    <div class="subchapter-desc">Ich reflektiere kritisch: Methodische Einschränkungen, Limitationen des Prototyps, Generalisierbarkeit. Wissenschaftliche Integrität durch ehrliche Selbstkritik.</div>
+                </div>
+
+                <div class="subchapter">
+                    <div class="subchapter-header">8.3 Ausblick</div>
+                    <div class="subchapter-desc">Ich blicke nach vorne: Mögliche Weiterentwicklungen des Systems und offene Forschungsfragen. Die Arbeit wird in einen größeren Kontext eingeordnet.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Mapping Tabelle -->
+        <div class="mapping-section">
+            <div class="section-title">Mapping: Kapitel → Forschungsfragen</div>
+            
+            <table class="mapping-table">
+                <thead>
+                    <tr>
+                        <th>Forschungsfrage</th>
+                        <th>Kapitel</th>
+                        <th>Ergebnis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>FF1</strong></td>
+                        <td>2.1, 2.2, 4.1</td>
+                        <td>Herausforderungen verstanden, MAS-Eignung begründet</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FF2</strong></td>
+                        <td>4.4, 5.1–5.4</td>
+                        <td>Konzeption, Implementierung, Skills dokumentiert</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FF3</strong></td>
+                        <td>6.1–6.3</td>
+                        <td>Anforderungserfüllung geprüft, Nutzerfeedback erhoben</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FF4</strong></td>
+                        <td>7.1–7.3</td>
+                        <td>Potenziale analysiert, Empfehlungen abgeleitet</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hauptfrage</strong></td>
+                        <td>5.4, 6.4, 8.1</td>
+                        <td>Machbarkeit bewertet, Nutzen aufgezeigt</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
