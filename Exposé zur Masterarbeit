@@ -1,0 +1,224 @@
+HOCHSCHULE OSNABRÜCK | WISO | MASTER BUSINESS MANAGEMENT
+Exposé zur Masterarbeit
+„Multi-Agent-Systeme zur Prozessautomatisierung und
+Entscheidungsunterstützung durch AI-Assisted
+Development"
+Eine iterative Design-Science-Studie am Beispiel eines KI-gestützten Support-Systems
+Verfasser:
+Erstprüfer:
+Zweitprüfer:
+Nikolai Toft Loosveld
+Prof. Dr. Andreas Faatz
+Prof. Dr. Frank Bensberg
+Forschungsfragen
+Hauptfrage: „Inwieweit ermöglicht AI-Assisted Development Fachkräften ohne IT
+Hintergrund die Entwicklung von Multi-Agent-Systemen, und welchen
+betriebswirtschaftlichen Nutzen bietet dies?"
+FF1
+FF2
+FF3
+FF4
+Welche Herausforderungen bestehen bei der Automatisierung von Geschäftsprozessen
+und für welche Arten von Prozessen eignen sich Multi-Agent-Architekturen als
+Lösungsansatz?
+Wie lassen sich Multi-Agent-Systeme durch AI-Assisted Development konzipieren und
+implementieren und welche Anforderungen, Skills und Entwicklungsprozesse sind
+dabei erforderlich?
+Inwieweit erfüllt das entwickelte System die definierten Anforderungen, und wie
+bewerten Nutzer dessen Funktionalität, Usability und praktischen Mehrwert?
+Welche betriebswirtschaftlichen Potenziale, organisatorischen Veränderungen und
+Erfolgsfaktoren ergeben sich durch den Einsatz von Multi-Agent-Systemen, die mittels
+AI-Assisted Development entwickelt wurden?
+Gliederung mit Erläuterungen
+1 Einleitung
+1.1 Problemstellung und Motivation
+Ich beschreibe das zentrale Problem: Unternehmen brauchen Automatisierung, aber IT
+Fachkräfte fehlen – gleichzeitig entstehen neue Möglichkeiten durch AI-Assisted Development.
+Der Leser versteht, warum diese Arbeit relevant ist.
+1.2 Zielsetzung und Forschungsfragen
+Ich definiere das Ziel der Arbeit und stelle Haupt- und Unterfragen vor. Die Fragen dienen als
+roter Faden für alle folgenden Kapitel.
+1.3 Methodisches Vorgehen und Aufbau der Arbeit
+Ich erkläre kurz die Methodik (Design Science Research) und gebe einen Überblick über den
+Aufbau der Arbeit. Der Leser weiß, was ihn wo erwartet.
+2 Theoretische Grundlagen
+2.1 Geschäftsprozessautomatisierung
+2.1.1 Begriffsdefinition und Entwicklung
+Ich definiere Geschäftsprozessautomatisierung und zeige die Entwicklung von regelbasierter
+Automatisierung (RPA) hin zu intelligenten Systemen. Der Leser versteht den historischen Kontext und
+aktuelle Trends.
+2.1.2 Herausforderungen bei wissensintensiven Prozessen 
+FF1
+Ich zeige, warum klassische Automatisierung bei komplexen Prozessen (unstrukturierte Daten,
+Ausnahmen, Kontextverständnis) an Grenzen stößt. Dies begründet, warum Multi-Agent-Systeme als
+Lösung relevant sind.
+2.2 Multi-Agent-Systeme
+2.2.1 Definition und Architekturprinzipien
+Ich erkläre verständlich, was Agenten und Multi-Agent-Systeme sind – mit Analogien für BWL-Leser.
+Der Leser versteht das Kernkonzept der Arbeit.
+2.2.2 Orchestrierungsmuster und Agenten-Kommunikation
+Ich beschreibe verschiedene Architekturmuster (Pipeline, Routing, Supervisor) und wie Agenten
+kommunizieren. Dies legt die Grundlage für die Architekturentscheidung in Kapitel 4.
+2.2.3 Anwendungsfelder in Unternehmen 
+FF1
+Ich zeige praktische Einsatzgebiete von MAS in Unternehmen (Support, Dokumentenverarbeitung,
+Entscheidungsunterstützung). Der Leser versteht die betriebswirtschaftliche Relevanz.
+2.3 AI-Assisted Development
+2.3.1 Begriffsdefinition und Abgrenzung
+Ich definiere AI-Assisted Development und grenze es ab von No-Code, Low-Code und klassischer
+Programmierung. Der zentrale Begriff der Arbeit wird klar definiert.
+2.3.2 Potenziale für Fachkräfte ohne IT-Hintergrund 
+HF
+Ich diskutiere, welche neuen Möglichkeiten AI-Assisted Development für Nicht-Programmierer bietet
+und welche Skills (z.B. Prompt Engineering) relevant werden. Dies ist die theoretische Grundlage für
+die Hauptfrage.
+2.4 Technologische Grundlagen
+2.4.1 Large Language Models und RAG
+Ich erkläre verständlich, wie LLMs funktionieren und was RAG (Retrieval Augmented Generation) ist.
+Der Leser versteht die technische Basis der Agenten.
+2.4.2 n8n als Workflow-Automation-Plattform
+Ich stelle n8n vor: Der Leser versteht, womit ich die Multi-Agent-Pipeline gebaut habe.
+2.4.3 Lovable als AI-gestützte Full-Stack-Entwicklungsplattform
+Ich stelle Lovable vor: Der Leser versteht, wie ich ohne Programmierkenntnisse den Support Hub
+entwickelt habe.
+3 Forschungsmethodik
+3.1 Design Science Research
+3.1.1 Grundlagen und DSR-Zyklus
+Ich erkläre Design Science Research nach Hevner: Ziel ist die Entwicklung und Evaluation von
+Artefakten. Ich beschreibe den DSR-Zyklus (Problem → Design → Develop → Evaluate).
+3.1.2 Anwendung in dieser Arbeit
+Ich zeige konkret, wie ich DSR anwende und mappe die Phasen auf meine Kapitel. Der
+Forschungsprozess wird transparent und nachvollziehbar.
+3.2 Anforderungsanalyse mit Volere
+Ich erkläre das Volere Requirements Framework und wie ich es für Anforderungsdefinition und
+Evaluation nutze. Volere dient als Brücke zwischen Kapitel 4 (Anforderungen) und Kapitel 6
+(Evaluation).
+3.3 Evaluationsmethodik 
+FF3
+Ich beschreibe, wie ich den Prototyp evaluiere: Soll-Ist-Vergleich der Anforderungen und
+Nutzerevaluation. Die Bewertungskriterien werden vorab festgelegt.
+4 Anforderungsanalyse und Systemkonzeption
+4.1 Problemkontext: Herausforderungen im Kundensupport 
+FF1
+Ich beschreibe konkret die Probleme im Support: manuelle Bearbeitung, lange Reaktionszeiten,
+inkonsistente Qualität, nicht skalierbar. Der Leser versteht den Business Case für den Prototyp.
+4.2 Stakeholder und deren Anforderungen
+Ich identifiziere die Stakeholder (Kunden, Support-Team, Management) und deren Bedürfnisse.
+Die Anforderungen werden aus verschiedenen Perspektiven abgeleitet.
+4.3 Anforderungsdefinition nach Volere
+4.3.1 Funktionale Anforderungen
+Ich definiere, WAS das System können muss: E-Mail-Verarbeitung, Intent-Erkennung,
+Dokumentensuche, Kalenderintegration, Antwortgenerierung. Jede Anforderung wird im Volere
+Format dokumentiert.
+4.3.2 Nicht-funktionale Anforderungen 
+FF3
+Ich definiere, WIE GUT das System sein muss: Performance, Usability, Sicherheit, Wartbarkeit. Diese
+Kriterien werden später zur Evaluation herangezogen.
+4.4 Systemkonzeption
+4.4.1 Gesamtarchitektur und Technologie-Stack
+Ich beschreibe die Architektur (Support Hub via Lovable, Multi-Agent-Pipeline via n8n) und begründe
+die Tool-Auswahl. Der Leser versteht das Zusammenspiel der Komponenten.
+4.4.2 Konzeption der Multi-Agent-Architektur als Pipeline mit dynamischem Routing 
+FF2
+Ich begründe die Architekturentscheidung: Sequentielle Pipeline mit bedingten Verzweigungen (If
+Nodes). Ich definiere die fünf Agenten und ihre Aufgaben. Die konzeptionelle Grundlage für die
+Implementierung ist gelegt.
+5 Entwicklung des Systems
+5.1 Überblick: Iterativer Entwicklungsprozess 
+FF2
+Ich beschreibe das iterative Vorgehen (Build-Evaluate-Schleifen) und gebe einen Überblick über
+die Entwicklungsphasen. Der Entwicklungsprozess wird transparent dokumentiert.
+5.2 Support Hub: Frontend und Backend
+5.2.1 Prompt-basierte Entwicklung mit Lovable 
+HF
+Ich beschreibe, wie ich mit Lovable den kompletten Support Hub entwickelt habe – ausschließlich
+durch Prompts. Lovable generierte Frontend (React), Backend-Logik und Datenbankanbindung
+(Supabase). Der AI-Assisted Development Ansatz wird konkret demonstriert.
+5.2.2 Kernmodule und KI-Funktionen
+Ich dokumentiere die implementierten Module (Conversations, CRM, Team-Chat, Dashboard) und die
+KI-Funktionen im Hub (Auto-Reply, Prioritätserkennung, Spam-Erkennung). Der Leser versteht den
+Funktionsumfang.
+5.3 Multi-Agent-Pipeline in n8n
+5.3.1 Workflow-Architektur und Phasen
+Ich beschreibe die drei Workflow-Phasen: (1) E-Mail-Eingang und Weiterleitung, (2) Callback und E
+Mail-Versand, (3) Multi-Agent-Orchestrierung. Der Leser versteht die Gesamtstruktur.
+5.3.2 Die fünf KI-Agenten 
+FF2
+Ich dokumentiere jeden Agenten: Triage Agent, Document Analysis Agent, Intent Agent, Calendar
+Agent, Draft Writer Agent – jeweils mit Aufgabe, Input und Output. Das Herzstück der Arbeit wird
+transparent gemacht.
+5.3.3 Integration externer APIs
+Ich beschreibe die Anbindung von Gmail, Google Calendar, Google Drive, LlamaParse und
+OpenRouter. Der Leser versteht, wie die externen Dienste integriert sind.
+5.3.4 Finaler Output: Gmail Draft und Google Task
+Ich zeige das Endergebnis der Pipeline: Ein fertiger Antwort-Entwurf in Gmail und ein strukturiertes
+Briefing als Google Task für den Mitarbeiter. Der praktische Nutzen wird konkret.
+5.4 Reflexion: Skills und Grenzen als Nicht-IT-Fachkraft 
+HF FF2
+Ich reflektiere ehrlich: Welche Skills musste ich lernen (Prompt Engineering, API-Verständnis,
+Systemdenken)? Wo hat AI-Assisted Development geholfen? Wo stieß ich an Grenzen? Dies
+beantwortet direkt die Hauptfrage und FF2.
+6 Evaluation
+6.1 Vorgehen und Testszenarien
+Ich beschreibe das Evaluationsvorgehen und die konkreten Testszenarien (z.B. FAQ-Anfrage,
+Terminbuchung, komplexe Anfrage mit Anhang). Die Evaluation wird nachvollziehbar
+dokumentiert.
+6.2 Anforderungserfüllung (Soll-Ist-Vergleich) 
+FF3
+Ich prüfe jede Anforderung aus Kapitel 4: Erfüllt, teilweise erfüllt, nicht erfüllt – mit Begründung
+und Evidenz. Dies beantwortet FF3 objektiv und strukturiert.
+6.3 Nutzerevaluation: Funktionalität, Usability, Mehrwert 
+FF3
+Ich präsentiere das Feedback der Nutzer zu Funktionalität, Usability und praktischem Mehrwert.
+Dies beantwortet den zweiten Teil von FF3.
+6.4 Bewertung von AI-Assisted Development 
+HF
+Ich bewerte den Entwicklungsansatz: Stärken, Grenzen, Machbarkeit für Nicht-IT-Fachkräfte. Dies
+liefert die zentrale Antwort auf die Hauptfrage.
+7 Betriebswirtschaftliche Implikationen
+7.1 Potenzialanalyse: Effizienz, Qualität und Skalierbarkeit 
+FF4
+Ich analysiere qualitativ den betriebswirtschaftlichen Nutzen: Welche Effizienzgewinne sind
+plausibel? Wie verbessert sich die Antwortqualität? Wie skaliert das System? Keine metrische
+Evaluation, sondern argumentative Potenzialanalyse basierend auf Funktionsumfang und
+Nutzerfeedback.
+7.2 Organisatorische Veränderungen und neue Rollen 
+FF4
+Ich diskutiere, wie AI-Assisted Development Rollen verändert: Welche neuen Kompetenzprofile
+entstehen? Wie verändert sich die Zusammenarbeit zwischen IT und Fachbereichen? Der Leser
+versteht die Implikationen für Organisation und HR.
+7.3 Erfolgsfaktoren und Handlungsempfehlungen 
+FF4
+Ich leite aus den Erkenntnissen konkrete Erfolgsfaktoren (technisch, organisatorisch, personell)
+und Handlungsempfehlungen für Unternehmen ab. Die Arbeit liefert praxisrelevanten Transfer.
+8 Schlussbetrachtung
+8.1 Zusammenfassung und Beantwortung der Forschungsfragen 
+HF
+Ich fasse die Kernergebnisse zusammen und beantworte explizit jede Forschungsfrage (FF1
+FF4) sowie die Hauptfrage mit Verweis auf die entsprechenden Kapitel. Der Leser erhält eine
+klare, strukturierte Antwort.
+8.2 Kritische Würdigung und Limitationen
+Ich reflektiere kritisch: Methodische Einschränkungen, Limitationen des Prototyps,
+Generalisierbarkeit. Wissenschaftliche Integrität durch ehrliche Selbstkritik.
+8.3 Ausblick
+Ich blicke nach vorne: Mögliche Weiterentwicklungen des Systems und offene
+Forschungsfragen. Die Arbeit wird in einen größeren Kontext eingeordnet.
+Mapping: Kapitel → Forschungsfragen
+Forschungsfrage
+Kapitel
+Ergebnis
+FF1
+2.1, 2.2, 4.1
+Herausforderungen verstanden, MAS-Eignung begründet
+FF2
+4.4, 5.1–5.4
+Konzeption, Implementierung, Skills dokumentiert
+FF3
+6.1–6.3
+Anforderungserfüllung geprüft, Nutzerfeedback erhoben
+FF4
+7.1–7.3
+Potenziale analysiert, Empfehlungen abgeleitet
+Hauptfrage
+5.4, 6.4, 8.1
+Machbarkeit bewertet, Nutzen aufgezeigt
