@@ -1,0 +1,1343 @@
+KI-Gebrauch im Studienkontext dokumentieren 
+Hinweise und Arbeitsmaterialien 
+Kira Baresel, Cornelia Eube, Dagmar Knorr, Ly Lutter, Jasmin de Nys, Marieke Röben* 
+Dieses Dokument wurde im Rahmen der Austauschrunde niedersächsischer Hochschulen zum 
+Thema Künstliche Intelligenz in der Arbeitsgruppe „Rechtliches“ entwickelt.  
+Es ist unter CC BY 4.0 lizenziert.   
+DOI: 10.48548/pubdata-1476 
+Version 1.0; Stand: 29.11.2024 
+*Kira Baresel (Universität Vechta), Cornelia Eube (Hochschule Hannover), Dagmar Knorr und Marieke Röben 
+(Leuphana Universität Lüneburg) sowie Ly Lutter und Jasmin de Nys (Universität Osnabrück) 
+ 
+ 
+Inhalt 
+1 Zielsetzung ........................................................................................................................ 1 
+2 Rahmenbedingungen und Herausforderungen ................................................................. 1 
+3 Referenzieren von Ergebnissen im Sinne einer Quelle .................................................... 3 
+4 Wie sollen verwendete Hilfsmittel dokumentiert werden? Eine Entscheidungshilfe ......... 4 
+5 Schlussbemerkung ............................................................................................................ 5 
+Dokumentationsformen ......................................................................................................... 7 
+Holistische Dokumentation ................................................................................................ 7 
+Werkzeugorientierte Dokumentation ................................................................................. 8 
+Arbeitsphasenorientierte Dokumentation .......................................................................... 9 
+Reflexionsorientierte Dokumentation: Erkenntnismatrix für den KI-Kompetenzerwerb .. 12 
+Reflexionsorientierte Dokumentation: Reflexionstagebuch und Dokumentation ............ 14 
+Anhang: Digitale Kopiervorlagen ....................................................................................... 20 
+Werkzeugorientierte Dokumentation ............................................................................... 20 
+Arbeitsphasenorientierte Dokumentation ........................................................................ 20 
+Reflexionsorientierte Dokumentation: Erkenntnismatrix für den KI-Kompetenzerwerb .. 21 
+Reflexionsorientierte Dokumentation: Reflexionstagebuch und Dokumentation ............ 22 
+ 
+1 Zielsetzung 
+In Studium und Lehre wirft die Verwendung KI-basierter Hilfsmittel insbesondere im Prüfungs
+kontext Fragen auf. Wie lässt sich die Anforderung, Leistungen eigenständig zu erbringen, mit 
+der Nutzung solcher Technologien vereinbaren? Welche Unterschiede bestehen im Vergleich 
+zum Zitieren herkömmlicher Quellen? Wie kann der Einsatz KI-basierter Hilfsmittel aussage
+kräftig offengelegt werden? 
+Die vorliegenden Vorschläge sollen Lehrenden Wege aufzeigen, wie die Verwendung KI-ba
+sierter Hilfsmittel im Bereich der Leistungserbringung reflektiert erfolgen, kenntlich gemacht 
+und dokumentiert werden kann, damit  
+• Studierende eine verlässliche Orientierung für das Erbringen ihrer Prüfungsleistungen er
+halten, 
+• Studierende persönliche Lernprozesse besser reflektieren und steuern können, 
+• Prüfende erkennen können, ob ihre Vorgaben hinsichtlich der erlaubten Hilfsmittelnutzung 
+eingehalten wurden und 
+• Prüfende erbrachte Prüfungsleistungen inhaltlich und formal besser bewerten können. 
+Sie stellen den Stand November 2024 einer fortlaufenden Diskussion in der Austauschrunde 
+der niedersächsischen Hochschulen zum Thema KI dar.  
+2 Rahmenbedingungen und Herausforderungen 
+Hochschulen sind der guten wissenschaftlichen Praxis verpflichtet. Die Güte wissenschaftli
+chen Arbeitens und der kritische, reflektierte Umgang mit Erkenntnissen sind daher wesentlich. 
+Die Verantwortung für die Bewertung wissenschaftlicher Erkenntnisse liegt bei den Personen, 
+die mit diesen Erkenntnissen umgehen, und kann nicht an maschinelle Verfahren der Künstli
+chen Intelligenz abgegeben werden. 
+In der Regel können Fächer und Lehrende einen Rahmen definieren, innerhalb dessen die 
+Verwendung generativer KI-Anwendungen sowie KI-generierter Produkte im Sinne guter wis
+senschaftlicher Praxis möglich ist. Reflexion, Eigenständigkeit und Transparenz sind hierfür 
+zentrale Aspekte, die z. T. ineinandergreifen. Dabei wird Ehrlichkeit als Grundhaltung voraus
+gesetzt. 
+Reflexion ist die Voraussetzung, um Eigenständigkeit transparent belegen zu können, 
+und ermöglicht ein kritisches Hinterfragen der eigenen KI-Nutzung. 
+Hierfür muss den Nutzenden u. a. bekannt sein, nach welchem Prinzip KI-basierte An
+wendungen funktionieren, was sie leisten können und was nicht. Auch positive oder ne
+gative Auswirkungen der Verwendung von KI für den persönlichen Lernprozess sowie 
+1 
+ökologische, soziale und gesellschaftliche Konsequenzen sollten den Nutzenden grund
+sätzlich bewusst sein.1 
+Eigenständigkeit hinsichtlich der KI-Nutzung lässt sich im wissenschaftlichen Arbeits
+prozess dadurch beurteilen, wie und zu welchem Zweck Hilfsmittel eingesetzt werden, 
+um ein angestrebtes Ergebnis zu erreichen.  
+Hierbei sind immer die Vorgaben im gegebenen Prüfungskontext zu berücksichtigen. 
+Generell lässt sich jedoch sagen, dass die Verwendung KI-basierter Anwendungen bei 
+der Erbringung bewertungsrelevanter Leistungen der eigenständigen Leistung unterge
+ordnet sein muss.2 Die Anforderungen an den Grad der Eigenständigkeit sind dabei ab
+hängig von den jeweiligen Lehr-Lernzielen. 
+Transparenz drückt sich einerseits darin aus, dass Lehrende ihre Anforderungen an die 
+Studierenden deutlich vermitteln, und andererseits darin, dass die Studierenden die Er
+füllung dieser Anforderungen nachvollziehbar darlegen. 
+Die jeweiligen Anforderungen an die Studierenden sollten im Vorfeld eindeutig kommu
+niziert und schriftlich festgehalten werden. Dies gilt insbesondere dann, wenn sich die 
+Vorgaben auf zu erbringende Prüfungsleistungen beziehen und eine nicht ausreichend 
+gekennzeichnete Verwendung von Quellen und Hilfsmitteln als Täuschungsversuch ge
+wertet werden könnte. Zwei Formen der Transparenz können dabei unterschieden wer
+den:  
+1) Transparenz in der Verwendung KI-basierter Anwendungen als Hilfsmittel im Arbeits
+prozess  
+2) Transparenz in der Übernahme von KI-generierten Inhalten in das eigene Produkt.  
+Die Festlegung der Verwendungsszenarien KI-basierter Hilfsmittel kann entweder durch Leh
+rende bestimmt oder in Absprache mit den Studierenden erfolgen. Unabhängig davon, inwie
+weit die Verwendung KI-basierter Hilfsmittel erlaubt oder ggf. auch erwartet wird, sollte sie 
+immer im Kontext der Lehr-Lernziele erfolgen. Als Diskussionsgrundlage kann z. B. die AI
+Assessment Scale nach Perkins et al. (2024)3 oder das „Framework zur Entwicklung von Re
+geln bei KI-gestützten Schreibprozessen“ Schreibzentrum der Goethe-Universität Frankfurt 
+am Main4 dienen. 
+1https://ethischeki.ecompetence.eu/handreichung 
+2https://www.souveraenes-digitales-lehren-und-lernen.de/wp-content/uplo
+ads/2023/09/KI_Recht_14072023_V2.pdf 
+3https://doi.org/10.53761/q3azde36 
+4https://www.starkerstart.uni-frankfurt.de/152163444.pdf 
+2 
+3 Referenzieren von Ergebnissen im Sinne einer Quelle 
+Das Konzept des Zitierens und Paraphrasierens beinhaltet den Rückgriff auf Quellen, die wie
+derholt identisch abrufbar und für weitere Personen einsehbar sind. Die entsprechenden Nach
+weise dienen dazu, dass Lesende die referierten Inhalte nachprüfen können, ganz gleich, ob 
+es sich dabei um Texte, Bild- oder Filmdokumente, Programmiercode etc. handelt. KI-gene
+rierte Inhalte sind nicht auf diese Weise nachprüfbar, da sie sich in der Regel nicht reprodu
+zieren lassen. Aus diesem Grund kann das Konzept der Zitation bzw. der Paraphrase nicht 
+direkt übertragen werden.  
+Maßnahmen, wie die vollständige und ggf. nicht nachträglich editierbare Dokumentation der 
+Eingaben (Prompts) in generative Anwendungen und entsprechender Ausgaben (Output), 
+können dabei helfen, diese Ausgaben innerhalb des eigenen Produktes spezifisch zu kenn
+zeichnen. KI-generierter Output kann entsprechend auf gleiche Weise als Quelle referenziert 
+werden.  
+Zentrale Aspekte des Referenzierens von Quellen jeglicher Art sind die Nachvollziehbarkeit 
+des Ursprungs verwendeter Daten bzw. Inhalte Dritter und die Nachvollziehbarkeit des Vorge
+hens bei der Übernahme dieser Informationen. Werden KI-generierte Ergebnisse im Sinne ei
+ner Quelle verwendet, z. B. in Form von direkt übernommenen oder paraphrasierten Textstel
+len, ist es empfehlenswert neben dem Prompt – als Äquivalent zum Titel eines veröffentlichten 
+Werkes – auch folgende Angaben zu notieren: 
+● Bezeichnung/Name des Tools 
+● Version des Tools 
+● Hersteller/Anbieter des Tools 
+● URL/Adresse des Tools 
+● Datum der Erstellung des Inhalts 
+Dies kann auch dabei helfen, Unterschiede in der Ergebnisqualität verschiedener Studierender 
+besser nachzuvollziehen, etwa wenn Bildgeneratoren unterschiedlicher Art und Ausführung 
+verwendet wurden. 
+Werden KI-generierte Inhalte im Sinne einer Quelle referenziert, ist auch ein Nachweis der 
+erfolgten Verifikation dieses Outputs zu empfehlen, z. B. um die Verbreitung nicht wissen
+schaftlich zutreffender Aussagen oder die Angabe nicht existierender Quellen zu vermeiden. 
+Zudem kann es im jeweiligen fachlichen Kontext von Vorteil sein, Studierende eine Reflexion 
+des von ihnen vorgenommenen KI-Einsatzes und/oder der übernommen KI-generierten Er
+gebnisses verfassen zu lassen. Fließt diese Reflexion in die Benotung ein, sind die Studieren
+den hiervon zuvor in Kenntnis zu setzen. 
+3 
+Fachgesellschaften wie die Modern Language Association (MLA)5 und die American Psycho
+logial Association (APA)6 haben umfassende Hinweise zum „Zitieren“ generativer KI-Anwen
+dungen in englischer Sprache veröffentlicht, die sowohl Studierenden als auch Lehrenden Ori
+entierung bieten können und zahlreiche Beispiele für Anwendungsfälle enthalten.  
+Das oben beschriebene Vorgehen deckt jedoch nur einen Teil der Nutzungsszenarien ab und 
+zieht Fragen auf Detailebene nach sich, z. B. ob und wenn ja, wie KI-generierte Vorschläge 
+für die Ideenfindung und -präzisierung, die Strukturierung und Umformulierung etc. zu kenn
+zeichnen wären. 
+4 Wie sollen verwendete Hilfsmittel dokumentiert werden? Eine 
+Entscheidungshilfe 
+Neben dem Referenzieren KI-generierter Ergebnisse im Sinne einer Quelle ist die Dokumen
+tation der Verwendung KI-basierter Hilfsmittel eine Möglichkeit, den Anteil KI-basierter Unter
+stützung transparent und nachvollziehbar kenntlich zu machen. 
+Da sich Anforderungen und Rahmenbedingungen je nach Fach, Veranstaltung und Lernziel 
+unterscheiden können, werden im Folgenden mehrere Optionen zur Dokumentation der Ver
+wendung KI-basierter Anwendungen vorgestellt, die jeweils unterschiedliche Schwerpunkte 
+setzen. Entsprechende Vorgaben sollten stets klar formuliert sowie jederzeit gut zugänglich 
+sein und den Studierenden transparent kommuniziert werden. 
+Falls nur ein begrenzter Umfang an Informationen zu dokumentieren ist, kann dies mittels ein
+facher Stichpunktlisten geschehen. Wird z. B. im Rahmen einer spezifischen Leistungserbrin
+gung nur ein einzelnes KI-Tool zur Verwendung zugelassen, oder soll für eine nicht prüfungs
+relevante Aufgabe lediglich angegeben werden, welches Tool zu welchem Zweck verwendet 
+wurde, reicht ggf. eine stichpunktartige Auflistung. 
+Beispiel 1: Stichpunktliste der Arbeitsschritte, in denen ein bestimmtes KI-Chatsystem ver
+wendet wurde 
+• zur Ideenfindung, 
+• zur Verbesserung sprachlicher Formulierungen, 
+• um Beispiele zu generieren oder zur Übersetzung. 
+Beispiel 2: Stichpunktliste KI-basierter Tools einschließlich Verwendungszweck 
+• elicit.com zur Literaturrecherche,  
+• semanticscholar.org zur Recherche, 
+• gamma.app zur Präsentationserstellung oder 
+• stablediffusionweb.com zur Bildgeneration. 
+5https://style.mla.org/citing-generative-ai/ 
+6https://apastyle.apa.org/blog/how-to-cite-chatgpt 
+4 
+ 
+ 5 
+Um einen größeren Umfang an Informationen zu dokumentieren, können werkzeug-, arbeits
+phasen- oder reflexionsorientierte Tabellen verwendet werden, die jeweils auf unterschiedliche 
+Anforderungen abzielen. Der folgende Überblick soll als Entscheidungshilfe für die Auswahl 
+dienen. Die entsprechenden Instrumente sowie Beispiele für konkrete Umsetzungen sind im 
+Anhang dieses Dokuments aufgeführt. 
+Tabelle 1: Entscheidungshilfe zur Instrumentenwahl 
+Instrument Anforderungen Vorteil Einschränkungen 
+Liste bei nur einem 
+zugelassenen Tool 
+Arbeitsschritte auflisten Einfach, schnell zu erstel
+len und zu überblicken 
+(Studierende und Leh
+rende) 
+Da nur ein Tool zugelas
+sen ist: keine 
+Liste mit 
+Verwendungszweck 
+Unsortierte Auflistung aller 
+Tools einschließlich Ver
+wendungszweck 
+Einfach, schnell zu erstel
+len (Studierende) 
+Reihenfolge nicht anpass
+bar (Lehrende) 
+Holistische Dokumentation Reflexion des Gebrauchs 
+in einem Absatz 
+Wenig Vorgaben 
+(Studierende und 
+Lehrende) 
+Erfordert Umgang mit Un
+bestimmtheit (Studierende 
+und Lehrende) 
+Werkzeugorientierte Doku
+mentation  
+Werkzeuge selbst stehen 
+im Vordergrund 
+Einfach zu erstellen (Stu
+dierende);  
+einfach zu lesen (Leh
+rende)  
+Gibt wenig Hinweise auf 
+die konkrete Nutzung (Leh
+rende) 
+Arbeitsphasenorientierte 
+Dokumentation 
+Tool-Verwendung im 
+Arbeitsprozess soll 
+dokumentiert werden 
+Schnell zu überblicken 
+(Lehrende) 
+Erfordert eine intensive 
+Auseinandersetzung mit 
+der Tabelle und den Zuord
+nungen im Vorfeld des 
+Ausfüllens (Studierende) 
+Reflexionsorientierte 
+Dokumentation: 
+Erkenntnismatrix für den 
+KI-Kompetenzerwerb 
+Dokumentationsanforde
+rungen werden gezielt fest
+gelegt und in Form von 
+Fragen an Studierende 
+vermittelt 
+Dokumentationszwecke 
+und Anforderungen werden 
+spezifisch angepasst (Leh
+rende) 
+Planungsaufwand im Vor
+feld (Lehrende) 
+Reflexionsorientierte 
+Dokumentation: 
+Reflexionstagebuch und 
+Dokumentation 
+Tool-Nutzung im wissen
+schaftlichen Arbeitspro
+zess wird vollständig doku
+mentiert, reflektiert (Tage
+buch) und für die Weiter
+gabe aufbereitet 
+Aufbau von KI-Literacy 
+(Studierende) und me
+takognitivem Wissen über 
+das eigene wissenschaftli
+che Handeln (Lehrende) 
+muss angeleitet werden 
+(Lehrende); 
+zeitaufwändig (Studie
+rende) 
+5 Schlussbemerkung 
+Die hier präsentierten Vorschläge stellen den aktuellen Stand November 2024 einer fortlau
+fenden Diskussion in der Austauschrunde der niedersächsischen Hochschulen zum Thema KI 
+dar. Generative KI entwickelt sich immer weiter zu einem integralen Bestandteil digitaler Ar
+beitsumgebungen. KI-basierte und nicht KI-basierte Anwendungen werden dabei zukünftig im
+mer weiter miteinander verbunden (z. B. Microsoft Copilot in Word und Apple Intelligence als 
+integraler Bestandteil von MacOS), so dass sie für Nutzende immer weniger zu unterscheiden 
+sind. Dies wird weitere Herausforderungen bezüglich der Kenntlichmachung verwendeter di
+gitaler Hilfsmittel mit sich bringen. Die damit verbundenen Unsicherheiten sind Teil des Trans
+formationsprozesses.  
+Aktiv an der Diskussion beteiligen können Sie sich im Academic Cloud Hub im Space „KI in 
+Lehre und Studium“7 und mit Ihren Erfahrungsberichten zur Weiterentwicklung dieser Zusam
+menstellung beitragen. 
+7https://hub.academiccloud.de/s/ki-in-forschung-und-lehre/ 
+6 
+Dokumentationsformen 
+Holistische Dokumentation 
+Der Prüfungsleistung wird ein Absatz angefügt, in dem die eigene Arbeitsweise in Bezug auf 
+den Einsatz von digitalen Werkzeugen reflektiert wird. Die Werkzeuge werden im Text be
+nannt, ihre Verwendung beschrieben, mögliche Einflüsse auf die Prüfungsleistung als Freitext 
+skizziert und es wird versichert, dass Regeln der guten wissenschaftlichen Praxis in Bezug auf 
+die Übernahme und Kontrolle von generierten Inhalten beachtet werden. Eine Auflistung von 
+Prompts oder generierten Inhalten erfolgt in der Regel nicht. 
+Beispiel für eine holistische Dokumentation (fiktiv) 
+Während der Erstellung der Arbeit habe ich verschiedene digitale Werkzeuge genutzt. Wenn ich Fachbe
+griffe nicht direkt wusste, habe ich ChatGPT gefragt. Auf der Basis der Antworten habe ich dann weiter 
+gearbeitet und mich in die Fachliteratur eingearbeitet. Um mir Wissen über den Diskurs aufzubauen, habe 
+ich consensus.ai befragt. Hier sind mir Namen von Autor*innen gezeigt worden, auf die ich sonst wohl 
+nicht gestoßen wäre. Die Recherche selbst habe ich dann über die Bibliothekskataloge und Fachdaten
+banken angestoßen. Manchmal fiel mir das Formulieren schwer. Deshalb habe ich ChatGPT teilweise mit 
+Wörtern gefüttert und mir daraus einen oder mehrere Sätze erstellen lassen. Diese habe ich genutzt, um 
+selbst geeignete Formulierungen zu finden. Manchmal habe ich auch einzelne Absätze umformulieren las
+sen, weil mir meine eigenen Formulierungen nicht gefielen. Die Alternativen habe ich dann geprüft und die 
+am geeignetsten übernommen oder an diesen noch weiter gefeilt. 
+7 
+ 
+ 8 
+Werkzeugorientierte Dokumentation 
+Bei diesem Ansatz werden die verwendeten Software-Tools und Programme alphabetisch auf
+gelistet. Dies bezieht sich auf alle Arten von Hilfsmitteln bzw. Software (vgl. Rules for Tools1), 
+die nicht als selbstverständlich angenommen werden können wie ein Textverarbeitungspro
+gramm. Ziel dieser Dokumentation ist es, Transparenz über die verwendeten Hilfsmittel und 
+deren Nutzung herzustellen. Die Tabelle 2 beinhaltet Beispiele aus verschiedenen fiktiven Ar
+beiten. 
+Tabelle 2: Beispiel für eine werkzeugorientierte Dokumentation 
+Soft
+ware/Pro
+gramm/KI
+Anwen
+dung 
+Link/Quelle Verwendungszweck Genutzte Funktion Nutzungsbeschreibung/Anwen
+dungsbereich  
+appypie https://www.appy
+pie.com/design/de/info
+grafik/ersteller 
+Infografiken zur Er
+läuterung 
+Entspricht Verwen
+dungszweck 
+Infografik für einen Überblick in 
+der Einleitung, S. 3  
+Claude https://claude.ai/new Assistenz zur Pro
+grammierung 
+Vorschläge für Glie
+derung 
+Chat und Code-Aus
+gabe 
+Programmierung des Auswer
+tungsprogramms, siehe S.13 
+Erstaufschlag der Gliederung, 
+wurde überarbeitet 
+DeepL Write https://www.deepl.com/d
+e/write 
+Überarbeiten der 
+Texte 
+Entspricht Verwen
+dungszweck 
+Gesamter Text 
+DeepL 
+Übersetzer 
+https://www.deepl.com/d
+e/translator 
+Übersetzung von 
+französischsprachi
+gen Papers 
+Übersetzung Franzö
+sisch–Deutsch 
+Die Paper Lacroix, 2007 & 
+Macron, 2020 wurden übersetzt. 
+KiCad2 https://www.kicad.org/ Layout der Testpla
+tine 
+PCB Layout Layout der Platine, siehe Abb. 15 
+S. 20 
+MATLab Hochschullizenz Simulation der Em
+pfängerschaltung 
+Simulink Schaltung xyz auf S. 14 simuliert 
+und optimiert 
+MaxQDA Hochschullizenz Auswertung Inter
+views 
+MaxQDA und AI Assist Kategorienbildung, siehe Kap 4.2 
+und Anhang C 
+Openknow
+ledgemap 
+https://openknowledge
+maps.org/ 
+Recherche des For
+schungsfelds 
+Entspricht Verwen
+dungszweck 
+Für die Einarbeitung wurde mit 
+diesem Tool der Zugang zum 
+Forschungsfeld erschlossen. 
+SPSS Hochschullizenz Auswertung Daten 
+zur Gesundheitsver
+sorgung  
+Hypothesentest mittels 
+xy 
+Datenauswertung siehe S. 15 und 
+Anhang S. 77 
+Visual Stu
+dio C++ 
+Hochschullizenz Programmierung ei
+ner Navigationslö
+sung 
+Entspricht Verwen
+dungszweck 
+Programmierung des zentralen 
+Programms der Arbeit, siehe Kap. 
+4 
+Whisper (o
+penAI) 
+https://openai.com/in
+dex/whisper/ 
+Transkribieren von 
+Interviews 
+Transkribieren ohne 
+Übersetzung 
+Transkribieren der Interviews, 
+wurden korrigierend überarbeitet. 
+Siehe Anhang B 
+ 
+1 Link zum Dokument: https://csp.uber.space/phhd/rulesfortools.pdf 
+2 Dieses „Ki“ hat nichts mit „Künstlicher Intelligenz“ zu tun, sondern geht auf den Namen eines Freundes eines der 
+Software-Entwickler zurück (https://www.kicad.org/about/kicad/). 
+Arbeitsphasenorientierte Dokumentation 
+Folgender Vorschlag zur Dokumentation der Verwendung von KI-Tools zeigt in den Spalten 
+den Grad der Verwendung auf, also den Umfang, in dem das verwendete KI-Tool die Prü
+fungsleistung beeinflusst hat. Hier müssen die Studierenden selbst einschätzen, wie sich das 
+verwendete KI-Tool auf ihre Arbeit ausgewirkt hat.  
+In den Zeilen werden die einzelnen Arbeitsschritte aufgezeigt. Bitte passen Sie die Arbeits
+schritte an Ihre eigene Prüfungsleistung an. Es sollte jeweils das verwendete Tool angegeben 
+und dessen Einsatz kurz und prägnant beschrieben werden, sodass der Einfluss auf das Er
+gebnis deutlich wird.  
+Der Grad der Nutzung wird über folgende Vierer-Skala beschrieben:1 
+Tabelle 3: Erläuterungen zum Grad der KI-Nutzung 
+Grad der  
+KI-Nutzung 
+Charakterisierung 
+Beispiele 
+1 
+Zur Inspiration 
+Sie haben sich Vorschläge für Themen unterbreiten lassen; Tools einge
+setzt, um sich aus eigenen Notizen heraus Themenschwerpunkte zu bil
+den; sich Formulierungen vorschlagen lassen; die Rechtschreibung-/ 
+Grammatikprüfung genutzt. 
+2 
+Ergänzend 
+Sie haben sich mögliche Fragestellungen vorschlagen lassen, einzelne 
+Begriffe der Aufgabenstellung oder Stellen in der Literatur erklären las
+sen, Gliederungen der eigenen Notizen vorschlagen oder eigene Texte 
+zusammenfassen lassen, Reverse Outline zum eigenen Text (eine basie
+rend auf dem Geschriebenen erzeugte Gliederung) generieren lassen. 
+3 
+Unterstützend 
+Sie haben sich Anforderungen der Aufgabe (z.B. Aufbau einer HA) erklä
+ren, Literatur zusammenfassen, mögliche Gliederungen zum Thema vor
+schlagen lassen;  
+Sie haben die Fragestellung dialogisch verfeinert bzw. Textteile dialo
+gisch verfasst und dabei LLM-Output iterativ ergänzt; 
+Sie haben sich Überarbeitungsvorschläge bzgl. Leserlichkeit und Stil ge
+nerieren lassen. 
+4 
+Inhaltsgestaltend 
+Sie haben sich Hintergrundwissen zur Aufgabe bzw. Antworten auf Fra
+gestellung generieren, Gliederung zum Thema vorgeben, Kürzungen und 
+Ergänzungen vornehmen lassen oder KI-generierten Text direkt über
+nommen. 
+1Die Skala und die Beschreibungen sind aus dem „Framework zur Entwicklung von Regeln bei KI-gestützten 
+Schreibprozessen“ übernommen, das das Schreibzentrum der Goethe-Universität Frankfurt am Main in Anlehnung 
+an D. R. Rowland. Two frameworks to guide discussions around levels of acceptable use of generative ai in student 
+academic research and writing. Journal of Academic Language and Learning, 17(1):T31–T69, 2023, entwickelt hat 
+(https://www.starkerstart.uni-frankfurt.de/149427334.pdf).  
+9 
+Tabelle 4: Vorlage für eine arbeitsphasenorientierte Dokumentation 
+Grad der  
+Verwen- 
+dung 
+Zur Inspiration 
+Ergänzend 
+Unterstützend 
+Inhaltsgestaltend 
+Arbeitsschritt 
+s 
+Thema finden und 
+konkretisieren 
+Aufgabenstellung 
+verstehen 
+Verwendetes Tool: 
+Einfluss auf die Ar
+beit 
+Recherchieren     
+Literatur/Daten aus
+werten 
+Planen und struktu
+rieren 
+Schreiben     
+Überarbeiten     
+10 
+ 
+ 11 
+Tabelle 5 zeigt ein fiktives Beispiel für arbeitsphasenorientierte Dokumentation. 
+Tabelle 5: Beispiel für eine arbeitsphasenorientierte Dokumentation 
+Grad der  
+Verwen- 
+dung 
+ 
+Arbeitsschritt 
+Zur Inspiration Ergänzend Unterstützend Inhaltsgestaltend 
+Thema finden und 
+konkretisieren 
+ChatGPT: Vor
+schläge für mögli
+che Themen ge
+sammelt 
+   
+Aufgabenstellung ver
+stehen 
+    
+Recherchieren 
+ 
+ChatGPT: nach 
+Tipps gefragt, wo 
+ich meine Literatur
+suche starten kann 
+   
+Vorbereitung der Un
+tersuchung 
+ChatGPT: Generie
+rung verschiedener 
+Interviewfragebö
+gen, um Aufbau 
+und Fragestil zu 
+verstehen. 
+   
+Literatur/Daten aus
+werten 
+ ChatGPT: Begriffe, 
+die ich nicht ver
+standen habe, er
+klären lassen 
+ OpenAI Whisper: auto
+matische Transkription 
+der geführten Inter
+views 
+Genei AI: Auswertung 
+der Transkripte nach 
+den untersuchten Ge
+sichtspunkten 
+Planen und struktu
+rieren 
+  ChatGPT: Diskus
+sion über meine 
+Struktur, Ergänzung 
+von Punkten, die ich 
+übersehen hatte 
+ 
+Schreiben 
+ 
+   DeepL: Übersetzung 
+aller Textstellen, die 
+auf Englisch benötigt 
+wurden 
+Überarbeiten 
+ 
+  Microsoft Copilot: 
+Überarbeitung von 
+Rechtschreibung 
+und Formulierungen 
+DeepL Write: Ver
+besserung der For
+mulierungen in engli
+schen Übersetzun
+gen 
+ChatGPT: Inhaltliches 
+Feedback zu meiner 
+Arbeit, Chat-Gespräch 
+über die Pointierung 
+der Fragestellungen 
+und die Tiefe der Argu
+mentation 
+ 
+Weitere Beispiele für die Ausgestaltung arbeitsphasenorientierter Dokumentation hat die Uni
+versität Vechta zusammengestellt unter:  
+https://www.uni-vechta.de/fileadmin/user_upload/Sprachenzentrum/Dateien_Schreibbera
+tung/SKINS_Tabellen_final.pdf 
+  
+s 
+Reflexionsorientierte Dokumentation: Erkenntnismatrix für den KI-Kompetenzerwerb 
+Die Erkenntnismatrix verbindet verschiedene Aspekte der KI-Nutzung mit Reflexionsfragen, 
+deren Beantwortung den Grad des KI-Kompetenzerwerbs widerspiegeln und die als Vor
+schläge gedacht sind. Den verschiedenen Aspekten der KI-Nutzung sind beispielhafte 
+Schreibimpulse für Studierende zugeordnet, inkl. Beispielantwort. Abschließend ist pro Aspekt 
+der KI-Nutzung ein Hinweis auf erworbene KI-Kompetenzen zugeordnet.  
+Lehrende können sich auf diejenigen Aspekte der KI-Nutzung fokussieren, anhand derer sie 
+KI-Kompetenzen lehren möchten und dementsprechend nur für diesen Aspekt Leitfragen an 
+die Studierenden weiterzugeben. Eine Bearbeitung aller Reflexionsvorschläge wäre sowohl 
+für Studierende als auch für Lehrende mit immensem Bearbeitungs- und Prüfungsaufwand 
+verbunden.  
+Hinweise für die Nutzung 
+Jede Tabellenspalte ist ein Vorschlag dazu, mit welchem Aspekt der KI-Nutzung KI-Kompe
+tenzen erworben werden können. Alle Schreibimpulse sind Vorschläge, aus denen abhängig 
+von Aufgabe und Lernziel die passenden ausgewählt werden sollen.  
+Besprechen Sie in Ihrer Veranstaltung, wie umfangreich die Antworten der Studierenden sein 
+und in welchem Format die Studierenden die Reflexion einreichen sollen (dies kann auch frei
+gestellt werden, sodass z.B. auch kurze Videos oder Sprachmemos eingereicht werden kön
+nen).  
+1. Legen Sie zuerst fest, anhand von welchem Nutzungsaspekt von KI der Erwerb von KI
+Kompetenzen erfolgen soll (Zeile 1) 
+2. Wählen Sie die passenden Schreibimpulse aus den Vorschlägen in der Tabelle oder for
+mulieren Sie eigene.  
+3. Kommunizieren Sie, welche Kriterien Sie zur Beurteilung, ob KI-Kompetenzen erworben 
+wurden, heranziehen. 
+12 
+ 
+ 13 
+Tabelle 6: Beispiel für eine ausgefüllte Erkenntnismatrix 
+Lehrende 
+Was soll dokumentiert werden? – Ihre Dokumentationsanforderungen  
+KI-Tool Arbeitsschritt des 
+Schreibprozesses/ 
+Forschungs-,  
+Design-, Schaffens- 
+(...) prozesses 
+Nutzungsgrund 
+(Mehrwert & Motiva
+tion) 
+Nutzungsstrategie Erkenntnisse 
+Studierende 
+Schreibimpulse für Studierende (Auswahl) 
+Welches Tool/ Modell 
+habe ich verwendet? 
+Nach welchen Krite
+rien habe ich das 
+Tool ausgewählt? 
+In welchem Prozess
+schritt habe ich mir 
+Unterstützung durch 
+KI geholt?  
+Welchen Mehrwert 
+habe ich mir von der 
+Verwendung von KI 
+erhofft?   
+Was glaube ich, kann 
+KI – bislang noch – 
+besser als ich? 
+Wie habe ich das 
+Tool genutzt? 
+  
+Was hat das KI-Tool 
+verändert?  
+Inwiefern ist das Er
+gebnis m. E. besser? 
+Warum? 
+Worauf hat mich das 
+Ergebnis hingewie
+sen? 
+Zu welchem nächs
+ten Schritt hat mich 
+das KI-basierte Er
+gebnis veranlasst?  
+Inwiefern können die 
+Ergebnisse proble
+matisch sein und 
+welche Konsequen
+zen ziehe ich daraus 
+für meinen Leis
+tungsnachweis?  
+Hat sich der Einsatz 
+von KI m. E. gelohnt? 
+Beispiele 
+Kiwi, Modell 4o, da 
+es mich in die Rich
+tung der Antwort wei
+sen kann.  
+Bing Copilot Brow
+ser-extension, um 
+mir online Seiten zu
+sammenfassen zu 
+lassen  
+Ich habe das KI-Tool 
+vor allem genutzt für  – Literaturrecherche – Methodenteil über
+arbeiten – Forschungsfrage 
+formulieren/klären  
+Ich wollte einen Ein
+stieg ins Thema fin
+den 
+Ich habe mir Konzept 
+XY erklären lassen 
+etc. 
+Systemprompt an die 
+Nutzendengruppe für 
+das zu entwickelnde 
+Produkt angepasst 
+Dadurch habe ich er
+kannt, dass ich XY 
+noch nicht ganz ver
+stehe.  
+XY recherchiert  
+Formulierungen 
+Struktur der Arbeit 
+Herangehensweise 
+an den Designpro
+zess, indem…  
+Hinweis auf KI
+Kompetenz  
+Erfolgte die Tool
+Auswahl informiert 
+und sachgerecht? 
+Wurde die Entschei
+dung über die Ver
+wendung des Tools 
+bewusst getroffen? 
+Erfolgte die KI-Nut
+zung reflektiert und 
+effizient? 
+Wurden die Ergeb
+nisse geprüft und 
+hinterfragt, wurde ei
+gene Quellenarbeit 
+betrieben etc.? 
+Wurde die Unterstüt
+zung durch KI als 
+solche wahrgenom
+men und sich mit ih
+ren Vor- und Nachtei
+len auseinanderge
+setzt? 
+ 
+  
+Reflexionsorientierte Dokumentation: Reflexionstagebuch und Dokumentation 
+Beschreibung des Einsatzszenarios 
+Dieses Instrument ist für Lehrveranstaltungen geeignet, in denen der Erwerb von KI-Literacy 
+als ein Future Skill zu den Lehr-Lernzielen gehört. Das Verfahren erfordert von den Studie
+rende eine durchgehende Reflexion ihres eigenes Arbeitsverhaltens. Es setzt voraus, dass es 
+keinerlei Beschränkungen in der Nutzung von KI-Tools gibt. Der Vorschlag ist allgemein ge
+halten und kann auf spezifische Lehr-Lernziele und Anliegen angepasst werden. Die Anpas
+sung kann an den Texten im Anhang erfolgen. Die gesamten Unterlagen zu diesem Instrument 
+können dann den Studierenden zu Beginn einer Veranstaltung zur Verfügung gestellt und das 
+Instrument eingeführt werden. Da eine (schriftliche) Reflexion des eigenen Arbeitsverhaltens 
+in der Regel nicht stattfindet, kann es hilfreich sein, das Instrument und seine Funktion im 
+Rahmen der Lehrveranstaltung explizit einzuführen. 
+Das Instrument besteht aus folgenden Komponenten: 
+Handreichung  
+Reflexionstagebuch 
+Dokumentation  
+Die Handreichung erklärt den Zweck des Reflexionstagebuchs und 
+die Erstellung der Dokumentation für die Studierenden. 
+Vorschlag für ein Reflexionstagebuch in Tabellenform. Das Reflexi
+onstagebuch wird von den Studierenden geführt und verbleibt bei 
+ihnen. 
+Die Dokumentation ist der Prüfungsleistung beizufügen und besteht 
+aus einem Kondensat des Reflexionstagebuchs  
+Die verfolgten Lehr-Lernziele entscheiden darüber, welche Angaben die Studierende machen 
+sollen. Die Handreichung und die Dokumentationstabelle sind daher an das jeweilige Nut
+zungsszenario anzupassen.  
+Handreichung 
+Wenn Sie eine schriftliche Prüfungsleistung einreichen, müssen Sie am Ende versichern, dass 
+Sie nur die angegebenen Quellen und Hilfsmittel verwendet haben. Digitale Tools gehören in 
+die Kategorie Hilfsmittel. Viele digitale Tools enthalten Komponenten, die auf Künstliche Intel
+ligenz zurückgreifen. Aus prüfungsrechtlicher Situation ist es deshalb erforderlich, dass Sie 
+dokumentieren, welche Tools Sie wofür eingesetzt haben. Denn es ist vom Lehr-/Lernziel ab
+hängig, ob der Einsatz eines Hilfsmittels zulässig ist oder nicht. 
+Sie sollten diese Anforderung nicht nur als zusätzliche Aufgabe ansehen. Sie bietet auch die 
+Chance, sich selbst in seinem Arbeitsverhalten näher kennenzulernen und gleichzeitig Medi
+enkompetenz und KI-Literacy aufzubauen. Der bewusste und kritisch reflektierte Umgang mit 
+digitalen Tools ist eine Fähigkeit, die in einer digitalisierten Welt erforderlich ist, um verantwor
+14 
+tungsvoll gesellschaftlich handeln zu können. Sie erwerben also zusätzlich zur fachlichen Ex
+pertise auch überfachliche Kompetenzen bzw. Soft- und Future Skills, die Ihnen auch bei Ih
+rem späteren Berufsweg nützen.  
+Wenn Sie diese Dokumentation nutzen, wurden Ihnen keine Beschränkungen in der KI-Nut
+zung auferlegt. Es geht jetzt also darum, dass Ihre Prüfenden nachvollziehen können, was Sie 
+gemacht haben. Transparentes Darlegen der Nutzung von digitalen Tools bildet die Basis für 
+eine nachvollziehbare Bewertung Ihres Umgangs mit Hilfsmitteln.  
+Es ist daher erforderlich, 
+● sich mit allen Vorschlägen kritisch auseinandersetzen, bevor Sie sie übernehmen,  
+● alle ausgegebenen Inhalte auf Korrektheit zu überprüfen und 
+● ggf. begründen zu können, warum Sie auf die eine oder andere Weise vorgegangen sind. 
+Die Dokumentation des eigenen Arbeitsprozesses bildet hierfür die Grundlage. Für diese Do
+kumentation können Sie das nachfolgende „Reflexionstagebuch“ verwenden. Das Tagebuch 
+bildet die Basis für die Dokumentation. Hierbei handelt es sich um eine Zusammenfassung der 
+Hilfsmittelnutzung, die Sie Ihrer schriftlichen Prüfungsleistung beifügen können. 
+Reflexionstagebuch  
+Nutzen Sie das Reflexionstagebuch, um Ihr eigenes Arbeitsverhalten zu reflektieren. Auf diese 
+Weise können Sie Aspekte wahrnehmen, die gut funktionieren, die nerven etc. Hierdurch 
+bauen Sie nicht nur Medienkompetenz (als Bestandteil von Soft- bzw. Future Skills), sondern 
+auch Ihre Fähigkeiten aus, den wissenschaftlichen Arbeits- und Schreibprozess zu bewältigen. 
+Das Tagebuch ist nur für Sie. 
+Sie können das Tagebuch 
+● während der Arbeit schreiben oder 
+● am Ende jeder Arbeitseinheit. 
+Wichtig ist nur, dass Sie sich angewöhnen, ihr Arbeits- und Schreibhandeln festzuhalten. Dann 
+wird diese Reflexion zur Routine. Sie können gerne stichwortartig arbeiten. 
+Tabelle 7: Reflexionstagebuch (fiktives Beispiel) 
+Datum  Woran habe ich 
+gearbeitet? 
+(Stichpunkte) 
+Welche digitalen 
+Tools habe ich 
+verwendet? 
+Notizen zum Ein
+satz digitaler 
+Tools 
+Reflexion 
+Beleg/Beispiel 
+1.9.24 Themenfindung 
+ChatGPT 3.5 über 
+Academic Cloud 
+Versuch, einige 
+Begriffe zu schär
+fen 
+Fragestellungen 
+vorschlagen las
+sen 
+Hilfreich, um Fachbegriffe 
+zu identifizieren 
+Grad der 
+Nutzung 
+1 
+Aus den Begriffen mal 
+Fragestellungen machen 
+lassen. Das traf es aber 
+nicht wirklich. Ich muss 
+noch weitermachen. 
+2 
+15 
+ 
+ 16 
+ 2.9.24  Texte lesen  ChatPDF 2 Texte hochgela
+den, geprüft, ob 
+relevant 
+Toll, dass ich deutsch fra
+gen kann, auch wenn der 
+Text englisch/italienisch 
+ist. Entlastet! Macht das 
+Lesen gezielter. Merke 
+aber auch, dass ich dann 
+den Text nicht mehr ganz 
+lese. 
+  2 
+5.9.24 Bild generieren bing.com/create Illustration für die 
+Präsentation zum 
+Projekt  
+Macht Spaß! Ist aber 
+auch aufwändig, genau 
+das zu prompten, was 
+man haben will. Zeitfres
+ser. 
+Denken findet in 
+der Auseinander
+setzung von 
+Mensch mit Ma
+schine statt; Künst
+liche Intelligenz ist 
+ein Partner des 
+Menschens beim 
+Denken. Helle, mo
+tivierende Farben 
+= 07_Denken-ex
+ternalisiert_Uto
+pie_01.jpeg 
+4 
+10.9.24 Text bearbeiten ChatGPT 4.0 über 
+Academic Cloud 
+Formulierungsal
+ternativen gesucht 
+Unentschieden. Manches 
+klingt gut, aber irgendwie 
+auch nicht. Weiß nicht so 
+recht, was ich davon hal
+ten soll. 
+24-09-10_Chat
+Verlauf.docx 
+3 
+ 
+Erläuterungen zum Reflexionstagebuch 
+Datum Notieren Sie das Datum der Arbeitseinheit. Wenn zwischen zwei Arbeitseinheiten 
+am selben Tag eine längere Pause liegt, nutzen Sie für jede Arbeitseinheit eine 
+eigene Zeile. 
+Woran habe ich gearbeitet?  
+Notieren Sie in Stichpunkten, was Sie gemacht haben. Da die Dokumentation, 
+die Sie am Ende einreichen sollen, an Arbeitsprozessen orientiert ist, können Sie 
+diese bereits hier nutzen. Die Liste ist jedoch nicht vollständig. Bitte ergänzen Sie 
+sie daher selbständig. (Wenn Sie bspw. Programmcode erstellen, ist es erforder
+lich, diesen Arbeitsschritt ebenfalls zu dokumentieren.) 
+• Themen-/Fragefindung 
+• Aufgabe verstehen 
+• Recherche 
+• Strukturierung und Planung 
+• Datenerhebung / Materialsammlung 
+• Datenaufbereitung 
+• Datenanalyse 
+• Rohfassung erstellen 
+• Überarbeiten inhaltlich 
+• Überarbeiten strukturell 
+• Überarbeiten sprachlich 
+• Fertigstellen 
+Welche digitalen Tools habe ich verwendet?  
+Word, Elicit, Bibliothekskatalog, ChatGPT, duden-mentor, Zotero, MAXQDA 
+etc.… 
+Notizen zum Einsatz digitaler Tools  
+Notieren Sie hier Momente oder Erkenntnisse, die Sie in Bezug auf die Nutzung 
+digitaler Tools hatten. Gab es besondere Einsichten aufgrund der Tool-Nutzung? 
+Was hat gut/schlecht funktioniert? Worin fühlten Sie sich unterstützt, entlastet, 
+genervt, …? Was hat Sie motiviert, abgelenkt, …? 
+Reflexion 
+Überlegen Sie: Warum habe ich das Tool überhaupt eingesetzt? Was hat es mir 
+gebracht? Welche Alternative hätte es gegeben? 
+Beleg / Beispiel  
+Notieren Sie hier den Prompt und die Ausgabe bzw. den Dateinamen als Ver
+weis. 
+Grad der Nutzung  
+Bei der Einreichung sollen Sie mit Hilfe einer Skala angeben, in welchem Grad 
+Sie KI-Tools in verschiedenen Phasen eingesetzt haben. Sie können diese 
+Spalte daher jetzt schon für die Dokumentation nutzen. Damit erleichtern Sie sich 
+die Arbeit am Ende. Bitte beachten Sie: Wenn Sie die Werte 3 oder 4 eintragen, 
+notieren Sie direkt ein Beispiel bzw. den Beleg für die Nutzung. Der Grad der 
+Nutzung wird über folgende Vierer-Skala beschrieben:2 
+Tabelle 8: Erläuterungen zum Grad der KI-Nutzung 
+Grad der  
+KI-Nutzung 
+Charakterisierung 
+Beispiele 
+1 
+Zur Inspiration 
+Sie haben sich Vorschläge für Themen unterbreiten las
+sen; Tools eingesetzt, um sich aus eigenen Notizen her
+aus Themenschwerpunkte zu bilden; sich Formulierun
+gen vorschlagen lassen; die Rechtschreibung-/ Gramma
+tikprüfung genutzt. 
+2 
+Ergänzend 
+Sie haben sich mögliche Fragestellungen vorschlagen 
+lassen, einzelne Begriffe der Aufgabenstellung oder Stel
+len in der Literatur erklären lassen, Gliederungen der ei
+genen Notizen vorschlagen oder eigene Texte zusam
+menfassen lassen, Reverse Outline zum eigenen Text 
+(eine basierend auf dem Geschriebenen erzeugte Glie
+derung) generieren lassen. 
+2Die Skala und die Beschreibungen sind aus dem „Framework zur Entwicklung von Regeln bei KI-gestützten 
+Schreibprozessen“ übernommen, das das Schreibzentrum der Goethe-Universität Frankfurt am Main in Anlehnung 
+an D. R. Rowland. Two frameworks to guide discussions around levels of acceptable use of generative ai in student 
+academic research and writing. Journal of Academic Language and Learning, 17(1):T31–T69, 2023, entwickelt hat 
+(https://www.starkerstart.uni-frankfurt.de/149427334.pdf).  
+17 
+3 Unterstützend Sie haben sich Anforderungen der Aufgabe (z.B. Aufbau 
+einer HA) erklären, Literatur zusammenfassen, mögliche 
+Gliederungen zum Thema vorschlagen lassen;  
+Sie haben die Fragestellung dialogisch verfeinert bzw. 
+Textteile dialogisch verfasst und dabei LLM-Output itera
+tiv ergänzt; 
+Sie haben sich Überarbeitungsvorschläge bzgl. Leser
+lichkeit und Stil generieren lassen. 
+4 
+Inhaltsgestaltend 
+Sie haben sich Hintergrundwissen zur Aufgabe bzw. Ant
+worten auf Fragestellung generieren, Gliederung zum 
+Thema vorgeben, Kürzungen und Ergänzungen vorneh
+men lassen oder KI-generierten Text direkt übernom
+men. 
+Tipp  Legen Sie für die Tabelle in ein eigenes Dokument an und halten Sie es während 
+Ihrer Arbeit geöffnet. So können Sie bei Bedarf direkt Notizen anfertigen. 
+Dokumentation erstellen 
+Sind Sie mit Ihrer Arbeit so weit fertig, dass Sie sie abgeben möchten, benötigen Sie noch 
+etwas Zeit, um auf der Basis Ihres Reflexionstagebuchs die Dokumentation zu erstellen. 
+Schritt 1: Vorbereitung 
+Zur Vorbereitung nehmen Sie bitte Ihr „Reflexionstagebuch“ zur Hand. Ordnen Sie even
+tuell Sie die Tabelle neu, so dass Sie einen Überblick über die verwendeten Tools in den 
+verschiedenen Arbeitsphasen bekommen.  
+Schritt 2: Dokumentation erstellen 
+Reflektieren Sie den Grad der Nutzung der KI-Tools über den gesamten Arbeitsprozess. 
+Tragen Sie den Grad der Nutzung bei dem jeweiligen Arbeitsprozess in die Tabelle „Do
+kumentation“ ein.  
+Achtung! Wenn Sie den Grad beim Grad der Nutzung die Werte 3 oder 4 eintragen, 
+ist die Angabe eines Beispiels bzw. eines Belegs obligatorisch (Prompt, 
+Textstelle und/oder Darstellung der Nutzung). Bei allen anderen Werten ist 
+dies fakultativ. Bitte erkundigen Sie sich bei Ihrer Lehrperson, was diese 
+fordern. 
+18 
+Dokumentation 
+Tabelle 9: Dokumentation (fiktives Beispiel) 
+Prozessphase 
+Grad der Nutzung Beispiel/Beleg 
+4 
+Reflexion 
+Thema finden und festle
+gen 
+ChatGPT 4o Mini (über Aca
+demic Cloud) 
+„Welche Themen kann ich im 
+Bereich "Mehrsprachigkeit" und 
+"Schule" für eine wissenschaftli
+che Hausarbeit untersuchen? 
+Die Eingrenzung fiel mir extrem 
+schwer. Ich habe mich daher an
+regen lassen. Durch die Themen 
+und die aufgeführten Fragen 
+konnte ich weiter in den Themen
+findung einsteigen. Entschieden 
+Mich interessiert, wie mehrspra
+chige SchülerInnen gefördert 
+werden können.“ 
+Output:  
+[…] 
+5 Bildungserfolg und Mehr
+sprachigkeit: Analysiere den 
+Zusammenhang zwischen 
+Mehrsprachigkeit und Bildungs
+erfolg. Welche Faktoren beein
+flussen den schulischen Erfolg 
+von mehrsprachigen Schüler*in
+nen? 
+Fragestellung finden und 
+konkretisieren 
+3 
+ChatGPT 4o Mini (über Aca
+demic Cloud) 
+habe ich mich für Thema 5 „Bil
+dungserfolg und Mehrsprachig
+keit“. 
+Annäherung über Faktoren. Das 
+hat aber nicht wirklich weiterge
+holfen. Dass ich die Begriffe defi
+nieren muss, war mir klar.  
+Das dialogische Verfeinern hat 
+mich an Grenzen geführt und ich 
+habe mich dann eher selbst auf 
+den Weg gemacht. 
+Aufgabe verstehen       
+Recherchieren       
+Strukturieren und Planen       
+Daten erheben       
+Material sammeln    
+Daten aufbereiten       
+Daten analysieren       
+Rohfassung erstellen       
+Be-/Überarbeiten inhaltlich       
+Be-/Überarbeiten struktu
+rell 
+Be-/Überarbeiten sprach
+lich 
+Fertigstellen       
+Bilder generieren    
+Bei Bedarf fügen Sie der Tabelle weitere Zeilen hinzu. 
+Schritt 3: Fügen Sie die Dokumentationstabelle Ihrer Prüfungsleistung hinzu. 
+19 
+ 
+ 20 
+Anhang: Digitale Kopiervorlagen 
+Werkzeugorientierte Dokumentation 
+Soft
+ware/Pro
+gramm/KI
+Anwen
+dung 
+Link/Quelle Verwendungszweck Genutzte Funktion Nutzungsbeschreibung/Anwen
+dungsbereich  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+ 
+ 
+Arbeitsphasenorientierte Dokumentation 
+Grad der  
+Verwen- 
+dung 
+ 
+Arbeitsschritt 
+Zur Inspiration Ergänzend Unterstützend Inhaltsgestaltend 
+Thema finden und 
+konkretisieren 
+    
+Aufgabenstellung ver
+stehen 
+    
+Recherchieren     
+Literatur/Daten aus
+werten 
+    
+Planen und strukturie
+ren 
+    
+Schreiben     
+Überarbeiten     
+ 
+ 
+ 
+  
+s 
+ 
+ 21 
+Reflexionsorientierte Dokumentation: Erkenntnismatrix für den KI-Kompetenzerwerb 
+Lehrende 
+Was soll dokumentiert werden? – Ihre Dokumentationsanforderungen  
+KI-Tool Arbeitsschritt des 
+Schreibprozesses/ 
+Forschungs-,  
+Design-, Schaffens- 
+(...) prozesses 
+Nutzungsgrund 
+(Mehrwert & Motiva
+tion) 
+Nutzungsstrategie Erkenntnisse 
+Studierende 
+Schreibimpulse für Studierende (Auswahl) 
+Welches Tool/ Modell 
+habe ich verwendet? 
+Nach welchen Krite
+rien habe ich das 
+Tool ausgewählt? 
+In welchem Prozess
+schritt habe ich mir 
+Unterstützung durch 
+KI geholt?  
+Welchen Mehrwert 
+habe ich mir von der 
+Verwendung von KI 
+erhofft?   
+Was glaube ich, kann 
+KI – bislang noch – 
+besser als ich? 
+Wie habe ich das 
+Tool genutzt? 
+  
+Was hat das KI-Tool 
+verändert?  
+Inwiefern ist das Er
+gebnis m. E. besser? 
+Warum? 
+Worauf hat mich das 
+Ergebnis hingewie
+sen? 
+Zu welchem nächs
+ten Schritt hat mich 
+das KI-basierte Er
+gebnis veranlasst?  
+Inwiefern können die 
+Ergebnisse proble
+matisch sein und 
+welche Konsequen
+zen ziehe ich daraus 
+für meinen Leis
+tungsnachweis?  
+Hat sich der Einsatz 
+von KI m. E. gelohnt? 
+Hinweis auf KI
+Kompetenz  
+Erfolgte die Tool
+Auswahl informiert 
+und sachgerecht? 
+Wurde die Entschei
+dung über die Ver
+wendung des Tools 
+bewusst getroffen? 
+Erfolgte die KI-Nut
+zung reflektiert und 
+effizient? 
+Wurden die Ergeb
+nisse geprüft und 
+hinterfragt, wurde ei
+gene Quellenarbeit 
+betrieben etc.? 
+Wurde die Unterstüt
+zung durch KI als 
+solche wahrgenom
+men und sich mit ih
+ren Vor- und Nachtei
+len auseinanderge
+setzt? 
+ 
+ 
+ 
+ 
+Reflexionsorientierte Dokumentation: Reflexionstagebuch und Dokumentation 
+Handreichung für Studierende 
+Wenn Sie eine schriftliche Prüfungsleistung einreichen, müssen Sie am Ende versichern, dass 
+Sie nur die angegebenen Quellen und Hilfsmittel verwendet haben. Digitale Tools gehören in 
+die Kategorie Hilfsmittel. Viele digitale Tools enthalten Komponenten, die auf Künstliche Intel
+ligenz zurückgreifen. Aus prüfungsrechtlicher Situation ist es deshalb erforderlich, dass Sie 
+dokumentieren, welche Tools Sie wofür eingesetzt haben. Denn es ist vom Lehr-/Lernziel ab
+hängig, ob der Einsatz eines Hilfsmittels zulässig ist oder nicht. 
+Sie sollten diese Anforderung nicht nur als zusätzliche Aufgabe ansehen. Sie bietet auch die 
+Chance, sich selbst in seinem Arbeitsverhalten näher kennenzulernen und gleichzeitig Medi
+enkompetenz und KI-Literacy aufzubauen. Der bewusste und kritisch reflektierte Umgang mit 
+digitalen Tools ist eine Fähigkeit, die in einer digitalisierten Welt erforderlich ist, um verantwor
+tungsvoll gesellschaftlich handeln zu können. Sie erwerben also zusätzlich zur fachlichen Ex
+pertise auch überfachliche Kompetenzen bzw. Soft- und Future Skills, die Ihnen auch bei Ih
+rem späteren Berufsweg nützen.  
+Wenn Sie diese Dokumentation nutzen, wurden Ihnen keine Beschränkungen in der KI-Nut
+zung auferlegt. Es geht jetzt also darum, dass Ihre Prüfenden nachvollziehen können, was Sie 
+gemacht haben. Transparentes Darlegen der Nutzung von digitalen Tools bildet die Basis für 
+eine nachvollziehbare Bewertung Ihres Umgangs mit Hilfsmitteln.  
+Es ist daher erforderlich, 
+● sich mit allen Vorschlägen kritisch auseinandersetzen, bevor Sie sie übernehmen,  
+● alle ausgegebenen Inhalte auf Korrektheit zu überprüfen und 
+● ggf. begründen zu können, warum Sie auf die eine oder andere Weise vorgegangen sind. 
+Die Dokumentation des eigenen Arbeitsprozesses bildet hierfür die Grundlage. Für diese Do
+kumentation können Sie das nachfolgende „Reflexionstagebuch“ verwenden. Das Tagebuch 
+bildet die Basis für die Dokumentation. Hierbei handelt es sich um eine Zusammenfassung der 
+Hilfsmittelnutzung, die Sie Ihrer schriftlichen Prüfungsleistung beifügen können. 
+I – Reflexionstagebuch  
+Nutzen Sie das Reflexionstagebuch, um Ihr eigenes Arbeitsverhalten zu reflektieren. Auf diese 
+Weise können Sie Aspekte wahrnehmen, die gut funktionieren, die nerven etc. Hierdurch 
+bauen Sie nicht nur Medienkompetenz (als Bestandteil von Soft- bzw. Future Skills), sondern 
+auch Ihre Fähigkeiten aus, den wissenschaftlichen Arbeits- und Schreibprozess zu bewältigen. 
+Das Tagebuch ist nur für Sie. 
+22 
+Sie können das Tagebuch 
+● während der Arbeit schreiben oder 
+● am Ende jeder Arbeitseinheit. 
+Wichtig ist nur, dass Sie sich angewöhnen, ihr Arbeits- und Schreibhandeln festzuhalten. Dann 
+wird diese Reflexion zur Routine. Sie können gerne stichwortartig arbeiten. 
+Reflexionstagebuch 
+Da
+tum  
+Woran habe ich gear
+beitet? (Stichpunkte) 
+Welche digitalen 
+Tools habe ich ver
+wendet? 
+Notizen zum Ein
+satz digitaler 
+Tools 
+Refle
+xion 
+Grad der 
+Nutzung 
+Beleg/Bei
+spiel 
+Erläuterungen zum Reflexionstagebuch 
+Datum 
+Notieren Sie das Datum der Arbeitseinheit. Wenn zwischen zwei Arbeitseinheiten 
+am selben Tag eine längere Pause liegt, nutzen Sie für jede Arbeitseinheit eine 
+eigene Zeile. 
+Woran habe ich gearbeitet?  
+Notieren Sie in Stichpunkten, was Sie gemacht haben. Da die Dokumentation, 
+die Sie am Ende einreichen sollen, an Arbeitsprozessen orientiert ist, können Sie 
+diese bereits hier nutzen. Die Liste ist jedoch nicht vollständig. Bitte ergänzen Sie 
+sie daher selbständig. (Wenn Sie bspw. Programmcode erstellen, ist es erforder
+lich, diesen Arbeitsschritt ebenfalls zu dokumentieren.) 
+• Themen-/Fragefindung 
+• Aufgabe verstehen 
+• Recherche 
+• Strukturierung und Planung 
+• Datenerhebung / Materialsammlung 
+• Datenaufbereitung 
+• Datenanalyse 
+• Rohfassung erstellen 
+• Überarbeiten inhaltlich 
+• Überarbeiten strukturell 
+• Überarbeiten sprachlich 
+• Fertigstellen 
+Welche digitalen Tools habe ich verwendet?  
+Word, Elicit, Bibliothekskatalog, ChatGPT, duden-mentor, Zotero, MAXQDA 
+etc.… 
+23 
+Notizen zum Einsatz digitaler Tools  
+Notieren Sie hier Momente oder Erkenntnisse, die Sie in Bezug auf die Nutzung 
+digitaler Tools hatten. Gab es besondere Einsichten aufgrund der Tool-Nutzung? 
+Was hat gut/schlecht funktioniert? Worin fühlten Sie sich unterstützt, entlastet, 
+genervt, …? Was hat Sie motiviert, abgelenkt, …? 
+Reflexion 
+Überlegen Sie: Warum habe ich das Tool überhaupt eingesetzt? Was hat es mir 
+gebracht? Welche Alternative hätte es gegeben? 
+Beleg / Beispiel 
+Notieren Sie hier den Prompt und die Ausgabe bzw. den Dateinamen als 
+Verweis. 
+Grad der Nutzung  
+Bei der Einreichung sollen Sie mit Hilfe einer Skala angeben, in welchem Grad 
+Sie KI-Tools in verschiedenen Phasen eingesetzt haben. Sie können diese 
+Spalte daher jetzt schon für die Dokumentation nutzen. Damit erleichtern Sie sich 
+die Arbeit am Ende. Bitte beachten Sie: Wenn Sie die Werte 3 oder 4 eintragen, 
+notieren Sie direkt ein Beispiel bzw. den Beleg für die Nutzung. Der Grad der 
+Nutzung wird über folgende Vierer-Skala beschrieben:1 
+Grad der  
+KI-Nutzung 
+Charakterisierung Beispiele 
+1 
+Zur Inspiration 
+Sie haben sich Vorschläge für Themen unterbreiten lassen; 
+Tools eingesetzt, um sich aus eigenen Notizen heraus Themen
+schwerpunkte zu bilden; sich Formulierungen vorschlagen las
+sen; die Rechtschreibung-/ Grammatikprüfung genutzt. 
+2 
+Ergänzend 
+Sie haben sich mögliche Fragestellungen vorschlagen lassen, 
+einzelne Begriffe der Aufgabenstellung oder Stellen in der Lite
+ratur erklären lassen, Gliederungen der eigenen Notizen vor
+schlagen oder eigene Texte zusammenfassen lassen, Reverse 
+Outline zum eigenen Text (eine basierend auf dem Geschriebe
+nen erzeugte Gliederung) generieren lassen. 
+3 
+Unterstützend 
+Sie haben sich Anforderungen der Aufgabe (z.B. Aufbau einer 
+HA) erklären, Literatur zusammenfassen, mögliche Gliederun
+gen zum Thema vorschlagen lassen;  
+Sie haben die Fragestellung dialogisch verfeinert bzw. Textteile 
+dialogisch verfasst und dabei LLM-Output iterativ ergänzt; 
+Sie haben sich Überarbeitungsvorschläge bzgl. Leserlichkeit 
+und Stil generieren lassen. 
+4 
+Inhaltsgestaltend 
+Sie haben sich Hintergrundwissen zur Aufgabe bzw. Antworten 
+auf Fragestellung generieren, Gliederung zu Thema vorgeben, 
+Kürzungen und Ergänzungen vornehmen lassen oder KI-gene
+rierten Texte direkt übernommen. 
+1Die Skala und die Beschreibungen sind aus dem „Framework zur Entwicklung von Regeln bei KI-gestützten 
+Schreibprozessen“ übernommen, das das Schreibzentrum der Goethe-Universität Frankfurt am Main in Anlehnung 
+an D. R. Rowland. Two frameworks to guide discussions around levels of acceptable use of generative ai in student 
+academic research and writing. Journal of Academic Language and Learning, 17(1):T31–T69, 2023, entwickelt hat 
+(https://www.starkerstart.uni-frankfurt.de/149427334.pdf).  
+24 
+Tipp  Legen Sie für die Tabelle in ein eigenes Dokument an und halten Sie es 
+während Ihrer Arbeit geöffnet. So können Sie bei Bedarf direkt Notizen 
+anfertigen. 
+II – Dokumentation 
+Sind Sie mit Ihrer Arbeit so weit fertig, dass Sie sie abgeben möchten, benötigen Sie noch 
+etwas Zeit, um auf der Basis Ihres Reflexionstagebuchs die Dokumentation zu erstellen. 
+Schritt 1: Vorbereitung 
+Zur Vorbereitung nehmen Sie bitte Ihr „Reflexionstagebuch“ zur Hand. Ordnen Sie even
+tuell Sie die Tabelle neu, so dass Sie einen Überblick über die verwendeten Tools in den 
+verschiedenen Arbeitsphasen bekommen.  
+Schritt 2: Dokumentation erstellen 
+Reflektieren Sie den Grad der Nutzung der KI-Tools über den gesamten Arbeitsprozess. 
+Tragen Sie den Grad der Nutzung bei dem jeweiligen Arbeitsprozess in die Tabelle ein.  
+Achtung! Wenn Sie den Grad beim Grad der Nutzung die Werte 3 oder 4 eintragen, 
+ist die Angabe eines Beispiels bzw. eines Belegs obligatorisch (Prompt, 
+Textstelle und/oder Darstellung der Nutzung). Bei allen anderen Werten ist 
+dies fakultativ. Bitte erkundigen Sie sich bei Ihrer Lehrperson, was diese 
+fordern. 
+Prozessphase 
+Grad der Nutzung 
+Beispiel/Beleg 
+Reflexion 
+Thema finden und festlegen       
+Fragestellung finden und kon
+kretisieren 
+Aufgabe verstehen       
+Recherchieren       
+Strukturieren und Planen       
+Daten erheben       
+Material sammeln    
+Daten aufbereiten       
+Daten analysieren       
+Rohfassung erstellen       
+Be-/Überarbeiten inhaltlich       
+Be-/Überarbeiten strukturell    
+Be-/Überarbeiten sprachlich    
+Fertigstellen       
+Bilder generieren    
+Bei Bedarf fügen Sie der Tabelle weitere Zeilen hinzu. 
+Schritt 3: Fügen Sie die Dokumentationstabelle Ihrer Prüfungsleistung hinzu. 
+25 
