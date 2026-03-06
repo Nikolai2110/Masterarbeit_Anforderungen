@@ -1,0 +1,168 @@
+Autor*innen: 
+Zielgruppe: 
+Typ: 
+Inhalt: 
+Bearbeitungsstand: 
+Einführung 
+Henning Czech, unter Mitarbeit von Katrin Wanninger 
+Lehrende, Studierende 
+Infotext 
+Empfehlungen zur Zitation bei der Verwendung generativer KI  
+02 / 2025 
+Zitieren KI-generierter Texte  
+Dieses Infoblatt enthält einige Empfehlungen dazu, wie die Verwendung generativer KI beim 
+Schreiben von Haus- und Abschlussarbeiten mit Blick auf allgemeine Standards der Zitation 
+formal korrekt gekennzeichnet werden kann. Die Empfehlungen werden für die jeweilige Um
+setzung in den ingenieurwissenschaftlichen und den wirtschaftswissenschaftlichen Fächern 
+konkretisiert. 
+Grundlage der Empfehlungen bilden die folgenden beiden Dokumente (frei verfügbar in der 
+Toolbox für Studium und Lehre des LearningCenters) sowie das folgende Video (frei verfüg
+bar in der YouTube-Playlist „Lerntipps vom LearningCenter der Hochschule Osnabrück“): 
+• „Zitieren in ingenieurwissenschaftlichen Haus- und Abschlussarbeiten“ 
+• „Zitieren in wirtschaftswissenschaftlichen Haus- und Abschlussarbeiten“ 
+• „Wie zitiere ich? Logischer Aufbau von Zitaten in Haus- und Abschlussarbeiten“ 
+Ergänzend sollten Studierende der Hochschule Osnabrück sich auf der Intranet-Seite des 
+Studierendensekretariates die FAQs zur Nutzung von KI in Prüfungen anschauen, um prü
+fungs- und urheberrechtliches Hintergrundwissen zu erwerben.  
+Für die im weiteren Verlauf aufgeführten Beispiele wurde das von OpenAI veröffentlichte Mo
+dell ChatGPT-4 ausgewählt. Die Vorgehensweise ist auf die Verwendung anderer KI-Modelle 
+übertragbar.  
+Wissenschaftliche Arbeiten wie von Zauberhand mit einem Klick erstellen (lassen)?  
+Ganz so einfach ist es dann doch nicht! Aber wenn man sich an ein paar grundlegende Regeln hält 
+(und das Prompten1 beherrscht), kann generative KI durchaus bereichernd sein.  
+1Ein Prompt ist die Formulierung einer gezielten Anfrage an die KI, hier mit dem Zweck der Textgenerierung. 
+CC BY-NC-SA License 4.0 
+1/5 
+Empfehlungen 
+Generell gilt: Der von einer KI generierte Text sollte (formal) so behandelt werden wie der 
+Inhalt anderer Quellen, die üblicherweise zitiert werden. Folglich lassen sich die gängigen 
+Regeln der Zitation auf das Einbinden von KI-generiertem Text übertragen.  
+I. Zitation 
+1. Wenn KI-generierter Text 1:1 übernommen wird, ist dies wie ein direktes Zitat zu 
+kennzeichnen. Der Text ist in Anführungszeichen zu setzen. 
+Ingenieurwissenschaftliche Fächer: Als Referenz im Text (sog. Kurzbeleg) sollte 
+die sog. lange Einordnungsformel (Verweis in eckigen Klammern mit den wesentli
+chen Infos zur Quelle) verwendet werden. Beispiel:  
+„KI-GENERIERTER TEXT“ [OpenAI, 2023, Prompt Nr. 1] EIGENER TEXT 
+Für den Kurzbeleg wird häufig nur die kurze Einordnungsformel verwendet. Dabei 
+handelt es sich um eine einfache Ziffer in eckigen Klammern, die im Literaturverzeich
+nis aufgelöst wird (Numerisches System). Dies wäre im Fall generativer KI jedoch ir
+reführend, denn: Erstens sollten die Lesenden möglichst direkt erkennen können, 
+dass sich hinter der Quellenangabe kein Fachtext, sondern ein Hilfsmittel verbirgt. 
+Zweitens sind Hilfsmittel im Quellenverzeichnis ohnehin nicht in einer Ziffern-Liste mit 
+der Fachliteratur, sondern unter einer separaten Zwischenüberschrift aufzuführen.   
+Wirtschaftswissenschaftliche Fächer: Der Kurzbeleg ist analog zu den sonstigen 
+Quellenverweisen zu gestalten – entweder in Fußnoten (Fußnotensystem) oder direkt 
+im Fließtext (Autor-Jahr-System):  
+„KI-GENERIERTER TEXT“ (OpenAI, 2023, Prompt Nr. 1) EIGENER TEXT  
+OpenAI ist die hinter dem Tool stehende Institution (an der Stelle steht sonst der*die 
+Autor*in einer Quelle). 2023 ist das Erscheinungsjahr des genutzten GPT-Modells. 
+Die Prompt-Nr. (an der Stelle, wo sonst eine Seitenzahl stehen würde) verweist auf 
+ein mögliches Prompt-Verzeichnis am Ende der Arbeit (siehe Punkt 6).2  
+2Grundsätzlich gibt es zwei Möglichkeiten, die Prompts zu nummerieren – textchronologisch oder zeitchrono
+logisch. „Textchronologisch“ bedeutet, dass Sie am Ende Ihres Arbeitsprozesses alle Prompt-Nummern so 
+durchnummerieren, dass die Nummerierung dem Auftreten der Verweise im Textverlauf entspricht (wobei na
+türlich wiederholt erwähnte Prompts dieselbe Nummer behalten müssen). „Zeitchronologisch“ bedeutet, dass 
+die Prompts so durchnummeriert werden, wie sie im Arbeitsprozess entstanden sind (das heißt, ein Prompt mit 
+höherer Nummer kann, wenn der Verweis später erstellt wurde, durchaus weiter vorne im Text stehen als ein 
+Prompt mit niedrigerer Nummer). Zumindest wenn Sie der zeitchronologischen Nummerierung folgen, sollten 
+Sie dies zum Beispiel in einer Fußnote transparent machen. 
+CC BY-NC-SA License 4.0 
+2/5 
+2. Auslassungen im direkten Zitat werden mit Punkten in eckigen Klammern […] mar
+kiert. Das kann beispielsweise dann nötig sein, wenn die KI nicht-existente oder nicht 
+korrekte Quellen halluziniert hat und die entsprechenden Angaben herausgenommen 
+werden müssen.  
+Umgekehrt gilt: Wenn in dem direkt zitierten KI-Text Quellenangaben korrigiert oder 
+ergänzt werden, sollte das eigene Namenskürzel angefügt werden.  
+Ingenieurwissenschaften (mit kurzer Einordnungsformel für einen üblichen Litera
+turverweis): 
+„KI-GENERIERTER TEXT […] KI-GENERIERTER TEXT [1, ergänzt durch HC] KI
+GENERIERTER TEXT“ [OpenAI, 2023, Prompt Nr. 1] EIGENER TEXT 
+Wirtschaftswissenschaften (mit den üblichen Angaben zur Literaturquelle): 
+„KI-GENERIERTER TEXT […] KI-GENERIERTER TEXT [vgl. Mustermann, 2017, 
+S. 1, ergänzt durch HC] KI-GENERIERTER TEXT“ (OpenAI, 2023, Prompt Nr. 1) EI
+GENER TEXT 
+Auch in den Wirtschaftswissenschaften wird bei einer Auslassung oder Ergänzung 
+auf die eckigen Klammern zurückgegriffen, da dies den Standards zur Kennzeich
+nung von Änderungen in direkten Zitaten entspricht.  
+Das „vgl.“ ist notwendig, weil die genannte Literaturquelle innerhalb des KI-gene
+rierten Textes ja in der Regel von der KI nicht 1:1 zitiert wird, sondern allenfalls In
+halte, die sich auch in der ergänzten Quelle wiederfinden, in anderen Worten darge
+stellt sind.  
+Vorsicht: In KI-generiertem Text angegebene Quellen sind häufig Halluzinatio
+nen und sollten unbedingt geprüft werden. 
+3. Wenn man KI-generierten Text vollständig paraphrasiert, also nur indirekt zitiert, 
+dann ist dies genauso zu behandeln wie indirekte Zitate von Fachliteratur. 
+Ingenieurwissenschaften: Aus den genannten Gründen sollte die lange Einord
+nungsformel verwendet werden. In den Ingenieurwissenschaften wird zudem meist 
+kein „vgl.“ verwendet, sodass lediglich an der Abwesenheit der Anführungszeichen 
+erkennbar ist, dass es sich nicht um ein direktes Zitat handelt:  
+EIGENE PARAPHRASE DES KI-TEXTES [OpenAI, 2023, Prompt Nr. 1] EIGENER 
+TEXT 
+CC BY-NC-SA License 4.0 
+3/5 
+Wirtschaftswissenschaften (mit der bei indirekten Zitaten üblichen Verwendung von 
+„vgl.“ vor der Quellenangabe): 
+EIGENE PARAPHRASE DES KI-TEXTES (vgl. OpenAI, 2023, Prompt Nr. 1) EIGE
+NER TEXT 
+4. Wenn sich Paraphrasen und 1:1-Übernahmen von KI-generiertem Text abwechseln, 
+dann müssen die beschriebenen Regeln wiederholt angewandt werden – wie bei 
+sonstiger Literatur auch. Das kann folgendermaßen aussehen:  
+Ingenieurwissenschaften: 
+EIGENER TEXT „KI-GENERIERTER TEXT“ [OpenAI, 2023, Prompt Nr. 1] EIGENE 
+PARAPHRASE EINES KI-TEXTES [OpenAI, 2023, Prompt Nr. 2] EIGENER TEXT 
+Wirtschaftswissenschaften: 
+EIGENER TEXT „KI-GENERIERTER TEXT“ (OpenAI, 2023, Prompt Nr. 1) EIGENE 
+PARAPHRASE EINES KI-TEXTES (vgl. OpenAI, 2023, Prompt Nr. 2) EIGENER 
+TEXT 
+Hinweis: Die Prompt-Nummern können sich wiederholen, wenn die jeweils genutzten 
+Textpassagen bzw. Inhalte aus dem Output zu demselben Prompt stammen. 
+II. Quellenverzeichnis 
+5. Im Quellenverzeichnis ist das KI-Modell möglichst unter einer separaten Überschrift 
+für die verwendeten Hilfsmittel anzugeben. Die Angaben können (je nach verwende
+tem System für die formale Gestaltung) wie folgt aussehen:  
+Ingenieurwissenschaften: 
+OpenAI, GPT-4: Generative Pre-trained Transformer 4 [textgenerierendes KI-Modell], 
+2023. Verfügbar unter: https://openai.com, letzter Zugriff am 26.04.2024 
+Wirtschaftswissenschaften: 
+OpenAI: GPT-4: Generative Pre-trained Transformer 4 [textgenerierendes KI-Modell], 
+2023, verfügbar unter: https://openai.com [26.04.2024] 
+Alternativ zur Website des Anbieters können Studierende der Hochschule Osnabrück 
+auch die URL der HAWKI-Seite angeben, falls das KI-Modell darüber aufgerufen 
+wurde.   
+6. Am Ende der Arbeit sollte ein Prompt-Verzeichnis angefügt werden, aus dem her
+vorgeht, welcher Prompt genau hinter welcher der im Text genannten Prompt-Num
+mern steckt. Das kann tabellarisch geschehen. Hier ergibt sich die Frage, in welchem 
+CC BY-NC-SA License 4.0 
+4/5 
+Umfang ein Prompt angegeben werden muss, denn in der Regel wird ja eine Art Dia
+log mit der KI-geführt, bis Qualität und Inhalt des Outputs dem jeweiligen Anliegen 
+entsprechen. Es ist empfehlenswert, hierzu die jeweiligen Prüfenden zu befragen. 
+Eine zusätzliche Auflistung aller mit den Prompts erzeugten Outputs erscheint wenig 
+praktikabel. Der Übersichtlichkeit halber wird hiervon abgeraten.    
+Quellen und weiterführende Informationen 
+LearningCenter der Hochschule Osnabrück (o. J.): Toolbox-Bereich für Studierende [Online
+Verzeichnis für Lehr- und Lernmaterialien]. Verfügbar unter: https://www.hs-osnab
+rueck.de/learningcenter/fuer-studierende/ (Zugriff am 26.04.2024) 
+LearningCenter der Hochschule Osnabrück (2023): Wie zitiere ich? Logischer Aufbau von 
+Zitaten in Haus- und Abschlussarbeiten. [YouTube-Video]. Verfügbar unter: https://www.y
+outube.com/watch?v=PmTqcStaTlI&list=PLSjDva2jYXd3rSJq6MdrwZQSbj-pt7wU4&in
+dex=26 (Zugriff am 03.05.2024)  
+Studierendensekretariat der Hochschule Osnabrück (o. J.): Nutzung von künstlicher Intelli
+genz bei Prüfungen – FAQ. In: Intranet der Hochschule Osnabrück. [hochschulinterne 
+Quelle] 
+Zeichnungen  
+Lea Mareile Tempel, Katrin Wanninger 
+Lizenzangabe für dieses Dokument 
+Für den Fall einer Wiederverwendung mit Bearbeitung dieses Dokumentes wird folgende Li
+zenzangabe vorgeschlagen:  
+„Empfehlungen zu Formalien der Zitation bei der Verwendung generativer KI in Haus- und 
+Abschlussarbeiten“ [mit Link zum Original hinterlegen] von Henning Czech, unter Mitarbeit 
+von Katrin Wanninger, formal / inhaltlich / formal und inhaltlich [entsprechend Ihrer Bear
+beitungsform auswählen] bearbeitet durch … [Ihr(e) Vorname(n) und Nachname(n)], lizen
+ziert unter CC BY-NC-SA 4.0.  
+Die Quellenangabe zu den Zeichnungen ist bei Wiederverwendung wie oben angegeben zu 
+übernehmen.  
+CC BY-NC-SA License 4.0 
+5/5 
